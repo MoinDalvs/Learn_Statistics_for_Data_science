@@ -42,3 +42,32 @@ Standard deviation is often used to measure the volatility of returns from inves
 The mean average, or mean absolute deviation, is considered the closest alternative to standard deviation. It is also used to gauge volatility in markets and financial instruments, but it is used less frequently than standard deviation.
 
 According to mathematicians, when a data set is of normal distribution—that is, there aren't many outliers—standard deviation is generally the preferable gauge of variability. But when there are large outliers, standard deviation registers higher levels of dispersion (or deviation from the center) than mean absolute deviation.
+
+## Percentile vs. Quartile vs. Quantile: What’s the Difference?
+
+Three terms that students often confuse in statistics are percentiles, quartiles, and quantiles.
+
+Here’s a simple definition of each:
+
+Percentiles: Range from 0 to 100.
+
+Quartiles: Range from 0 to 4.
+
+Quantiles: Range from any value to any other value.
+
+Note that percentiles and quartiles are simply types of quantiles.
+
+Some types of quantiles even have specific names, including:
+
++ 4-quantiles are called quartiles.
++ 5-quantiles are called quintiles.
++ 8-quantiles are called octiles.
++ 10-quantiles are called deciles.
++ 100-quantiles are called percentiles.
++ Note that percentiles and quartiles share the following relationship:
+
++ 0 percentile = 0 quartile (also called the minimum)
++ 25th percentile = 1st quartile
++ 50th percentile = 2nd quartile (also called the median)
++ 75th percentile = 3rd quartile
++ 100th percentile = 4th quartile (also called the maximum)
