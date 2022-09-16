@@ -1,14 +1,27 @@
 # Learn_basic_stats_for-Data_science
 
 ![inbox_221701_c1e7f0c6c305bffe3d62bd37d8783ed8_prob](https://user-images.githubusercontent.com/99672298/190671924-4c9b0dd4-243b-4828-9ade-f91a0555bb16.png)
+![30 03 2022_15 52 11_REC](https://user-images.githubusercontent.com/99672298/190672178-6591a16f-0939-4262-9226-3bcfb40a7e7f.png)
+![30 03 2022_15 52 32_REC](https://user-images.githubusercontent.com/99672298/190672197-76e232bd-1202-408c-a7b0-1bde68671d38.png)
+![30 03 2022_15 53 01_REC](https://user-images.githubusercontent.com/99672298/190672213-c2e51ed4-1840-4fa5-b51e-6a4916968f4f.png)
 
 ## Mean
 ## MEdian
 ## Mode
 ## Skewness
+
+![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
+![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
+![07 03 2022_23 11 36_REC](https://user-images.githubusercontent.com/99672298/190672311-455f8683-96fc-4c5f-b091-0a3e2e76eb70.png)
+
 ## Kurtosis
 
 Kurtosis is a measure of the tailedness of a distribution. Tailedness is how often outliers occur. Excess kurtosis is the tailedness of a distribution relative to a normal distribution.
+Like skewness, kurtosis is a statistical measure that is used to describe distribution. Whereas skewness differentiates extreme values in one versus the other tail, kurtosis measures extreme values in either tail. Distributions with large kurtosis exhibit tail data exceeding the tails of the normal distribution (e.g., five or more standard deviations from the mean). Distributions with low kurtosis exhibit tail data that are generally less extreme than the tails of the normal distribution.
+
+For investors, high kurtosis of the return distribution implies the investor will experience occasional extreme returns (either positive or negative), more extreme than the usual + or - three standard deviations from the mean that is predicted by the normal distribution of returns. This phenomenon is known as kurtosis risk.
+
+![image](https://user-images.githubusercontent.com/99672298/190677717-f516eb9b-caed-4d49-95c4-60f6ea71290c.png)
 
 Distributions with medium kurtosis (medium tails) are mesokurtic.
 Distributions with low kurtosis (thin tails) are platykurtic.
@@ -16,6 +29,23 @@ Distributions with high kurtosis (fat tails) are leptokurtic.
 Tails are the tapering ends on either side of a distribution. They represent the probability or frequency of values that are extremely high or low compared to the mean. In other words, tails represent how often outliers occur.
 
 Example: Types of kurtosis
+
+![image](https://user-images.githubusercontent.com/99672298/190672762-187cba1e-f8ed-4e98-a851-13b3af6f6f00.png)
+
+Types of kurtosis
+Distributions can be categorized into three groups based on their kurtosis:
+
+![image](https://user-images.githubusercontent.com/99672298/190672814-2c8e38aa-38ef-459f-9158-3787b61143a5.png)
+![image](https://user-images.githubusercontent.com/99672298/190672949-b7dca686-02f5-4037-b1bc-f4cb61f76a46.png)
+![image](https://user-images.githubusercontent.com/99672298/190673076-13f3345f-f863-44d1-8d32-27fc5da83be1.png)
+
+From the graph, we can see that the frequency distribution (shown by the gray bars) approximately follows a normal distribution (shown by the green curve). Normal distributions are mesokurtic.
+
+The zoologist calculates the kurtosis of the sample. She finds that the kurtosis is 3.09 and the excess kurtosis is 0.09, and she concludes that the distribution is mesokurtic.
+
+![image](https://user-images.githubusercontent.com/99672298/190673209-a780b0f0-f8c4-4988-a69c-0b202716988b.png)
+![image](https://user-images.githubusercontent.com/99672298/190677433-37b49df9-0423-44cd-b809-77456ecdd5fe.png)
+![image](https://user-images.githubusercontent.com/99672298/190677498-ad68ddd8-61f2-4373-9250-800544e91b3b.png)
 
 ## The Difference Between Standard Deviation and Average Deviation
 
