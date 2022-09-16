@@ -1,10 +1,21 @@
 # Learn_basic_stats_for-Data_science
 
+![inbox_221701_c1e7f0c6c305bffe3d62bd37d8783ed8_prob](https://user-images.githubusercontent.com/99672298/190671924-4c9b0dd4-243b-4828-9ade-f91a0555bb16.png)
+
 ## Mean
 ## MEdian
 ## Mode
 ## Skewness
 ## Kurtosis
+
+Kurtosis is a measure of the tailedness of a distribution. Tailedness is how often outliers occur. Excess kurtosis is the tailedness of a distribution relative to a normal distribution.
+
+Distributions with medium kurtosis (medium tails) are mesokurtic.
+Distributions with low kurtosis (thin tails) are platykurtic.
+Distributions with high kurtosis (fat tails) are leptokurtic.
+Tails are the tapering ends on either side of a distribution. They represent the probability or frequency of values that are extremely high or low compared to the mean. In other words, tails represent how often outliers occur.
+
+Example: Types of kurtosis
 
 ## The Difference Between Standard Deviation and Average Deviation
 
@@ -81,3 +92,109 @@ The word “quantile” comes from the word quantity. In simple terms, a quantil
 The median is a quantile; the median is placed in a probability distribution so that exactly half of the data is lower than the median and half of the data is above the median. The median cuts a distribution into two equal areas and so it is sometimes called 2-quantile.
 
 Quartiles are also quantiles; they divide the distribution into four equal parts. Percentiles are quantiles that divide a distribution into 100 equal parts and deciles are quantiles that divide a distribution into 10 equal parts
+
+## “Why 1.5 times IQR? Why not 1 or 2 or any other number?”
+
+In the most general sense, an outlier is a data point which differs significantly from other observations.
+### IQR Method of Outlier Detection
+To explain IQR Method easily, let’s start with a box plot.
+
+![image](https://user-images.githubusercontent.com/99672298/190669815-0ba7ed2e-9282-47c4-98bf-84c0600d0753.png)
+
+A box plot tells us, more or less, about the distribution of the data. It gives a sense of how much the data is actually spread about, what’s its range, and about its skewness. As you might have noticed in the figure, that a box plot enables us to draw inference from it for an ordered data, i.e., it tells us about the various metrics of a data arranged in ascending order.
+
+In the above figure,
+
++ minimum is the minimum value in the dataset,
++ and maximum is the maximum value in the dataset.
+
+So the difference between the two tells us about the range of dataset.
+
++ The median is the median (or centre point), also called second quartile, of the data (resulting from the fact that the data is ordered).
++ Q1 is the first quartile of the data, i.e., to say 25% of the data lies between minimum and Q1.
++ Q3 is the third quartile of the data, i.e., to say 75% of the data lies between minimum and Q3.
++ The difference between Q3 and Q1 is called the Inter-Quartile Range or IQR.
+### IQR = Q3 - Q1
+
+To detect the outliers using this method, we define a new range, let’s call it decision range, and any data point lying outside this range is considered as outlier and is accordingly dealt with. The range is as given below:
+
+### Lower Bound: (Q1 - 1.5 * IQR)
+### Upper Bound: (Q3 + 1.5 * IQR)
+
+Any data point less than the Lower Bound or more than the Upper Bound is considered as an outlier.
+
+But the question was: Why only 1.5 times the IQR? Why not any other number?
+
+Well, as you might have guessed, the number (here 1.5, hereinafter scale) clearly controls the sensitivity of the range and hence the decision rule. A bigger scale would make the outlier(s) to be considered as data point(s) while a smaller one would make some of the data point(s) to be perceived as outlier(s). And we’re quite sure, none of these cases is desirable.
+
+But this is an abstract way of explaining the reason, it’s quite effective, but naive nonetheless. So to what should we turn our heads for hope?
+
+Maths! Of course! (You saw that coming, right? 😐)
+
+### You might be surprised if I tell you that this number, or scale, depends on the distribution followed by the data.
+For example, let’s say our data follows, our beloved, Gaussian Distribution.
+
+### Gaussian Distribution
+You all must have seen how a Gaussian Distribution looks like, right? If not, here it is (although I’m suspicious about you 👊).
+
+![image](https://user-images.githubusercontent.com/99672298/190670528-2c8e0f12-5efb-4b21-a2d7-2309d76a489b.png)
+
+There are certain observations which could be inferred from this figure:
+
++ About 68.26% of the whole data lies within one standard deviation (<σ) of the mean (μ), taking both sides into account, the pink region in the figure.
++ About 95.44% of the whole data lies within two standard deviations (2σ) of the mean (μ), taking both sides into account, the pink+blue region in the figure.
++ About 99.72% of the whole data lies within three standard deviations (<3σ) of the mean (μ), taking both sides into account, the pink+blue+green region in the figure.
++ And the rest 0.28% of the whole data lies outside three standard deviations (>3σ) of the mean (μ), taking both sides into account, the little red region in the figure. And this part of the data is considered as outliers.
++ The first and the third quartiles, Q1 and Q3, lies at -0.675σ and +0.675σ from the mean, respectively.
+
+### Let’s calculate the IQR decision range in terms of σ
+#### Taking scale = 1:
+
+    Lower Bound:
+    = Q1 - 1 * IQR
+    = Q1 - 1 * (Q3 - Q1)
+    = -0.675σ - 1 * (0.675 - [-0.675])σ
+    = -0.675σ - 1 * 1.35σ
+    = -2.025σ
+    Upper Bound:
+    = Q3 + 1 * IQR
+    = Q3 + 1 * (Q3 - Q1)
+    = 0.675σ + 1 * (0.675 - [-0.675])σ
+    = 0.675σ + 1 * 1.35σ
+    = 2.025σ
+   
+So, when scale is taken as 1, then according to IQR Method any data which lies beyond 2.025σ from the mean (μ), on either side, shall be considered as outlier. But as we know, upto 3σ, on either side of the μ ,the data is useful. So we cannot take scale = 1, because this makes the decision range too exclusive, means this results in too much outliers. In other words, the decision range gets so small (compared to 3σ) that it considers some data points as outliers, which is not desirable.
+
+### Taking scale = 2:
+
+      Lower Bound:
+      = Q1 - 2 * IQR
+      = Q1 - 2 * (Q3 - Q1)
+      = -0.675σ - 2 * (0.675 - [-0.675])σ
+      = -0.675σ - 2 * 1.35σ
+      = -3.375σ
+      Upper Bound:
+      = Q3 + 2 * IQR
+      = Q3 + 2 * (Q3 - Q1)
+      = 0.675σ + 2 * (0.675 - [-0.675])σ
+      = 0.675σ + 2 * 1.35σ
+      = 3.375σ
+      
+So, when scale is taken as 2, then according to IQR Method any data which lies beyond 3.375σ from the mean (μ), on either side, shall be considered as outlier. But as we know, upto 3σ, on either side of the μ ,the data is useful. So we cannot take scale = 2, because this makes the decision range too inclusive, means this results in too few outliers. In other words, the decision range gets so big (compared to 3σ) that it considers some outliers as data points, which is not desirable either.
+
+### Taking scale = 1.5:
+
+      Lower Bound:
+      = Q1 - 1.5 * IQR
+      = Q1 - 1.5 * (Q3 - Q1)
+      = -0.675σ - 1.5 * (0.675 - [-0.675])σ
+      = -0.675σ - 1.5 * 1.35σ
+      = -2.7σ
+      Upper Bound:
+      = Q3 + 1.5 * IQR
+      = Q3 + 1.5 * (Q3 - Q1)
+      = 0.675σ + 1.5 * (0.675 - [-0.675])σ
+      = 0.675σ + 1.5 * 1.35σ
+      = 2.7σ
+      
+**When scale is taken as 1.5, then according to IQR Method any data which lies beyond 2.7σ from the mean (μ), on either side, shall be considered as outlier. And this decision range is the closest to what Gaussian Distribution tells us, i.e., 3σ. In other words, this makes the decision rule closest to what Gaussian Distribution considers for outlier detection, and this is exactly what we wanted.**
