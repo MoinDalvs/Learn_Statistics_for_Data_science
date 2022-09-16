@@ -64,6 +64,14 @@ Some types of quantiles even have specific names, including:
 + 8-quantiles are called octiles.
 + 10-quantiles are called deciles.
 + 100-quantiles are called percentiles.
+
+### What is a Quantile?
+The word “quantile” comes from the word quantity. In simple terms, a quantile is where a sample is divided into equal-sized, adjacent, subgroups (that’s why it’s sometimes called a “fractile“). It can also refer to dividing a probability distribution into areas of equal probability.
+
+The median is a quantile; the median is placed in a probability distribution so that exactly half of the data is lower than the median and half of the data is above the median. The median cuts a distribution into two equal areas and so it is sometimes called 2-quantile.
+
+Quartiles are also quantiles; they divide the distribution into four equal parts. Percentiles are quantiles that divide a distribution into 100 equal parts and deciles are quantiles that divide a distribution into 10 equal parts
+
 + Note that percentiles and quartiles share the following relationship:
 
 + 0 percentile = 0 quartile (also called the minimum)
