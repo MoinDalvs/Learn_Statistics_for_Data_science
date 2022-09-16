@@ -53,9 +53,19 @@ Percentiles: Range from 0 to 100.
 
 Quartiles: Range from 0 to 4.
 
++ Note that percentiles and quartiles share the following relationship:
+
++ 0 percentile = 0 quartile (also called the minimum)
++ 25th percentile = 1st quartile
++ 50th percentile = 2nd quartile (also called the median)
++ 75th percentile = 3rd quartile
++ 100th percentile = 4th quartile (also called the maximum)
+
 Quantiles: Range from any value to any other value.
 
 Note that percentiles and quartiles are simply types of quantiles.
+
+![image](https://user-images.githubusercontent.com/99672298/190623416-d0621d79-121d-4ff2-8a98-083a2ec825ae.png)
 
 Some types of quantiles even have specific names, including:
 
@@ -71,11 +81,3 @@ The word “quantile” comes from the word quantity. In simple terms, a quantil
 The median is a quantile; the median is placed in a probability distribution so that exactly half of the data is lower than the median and half of the data is above the median. The median cuts a distribution into two equal areas and so it is sometimes called 2-quantile.
 
 Quartiles are also quantiles; they divide the distribution into four equal parts. Percentiles are quantiles that divide a distribution into 100 equal parts and deciles are quantiles that divide a distribution into 10 equal parts
-
-+ Note that percentiles and quartiles share the following relationship:
-
-+ 0 percentile = 0 quartile (also called the minimum)
-+ 25th percentile = 1st quartile
-+ 50th percentile = 2nd quartile (also called the median)
-+ 75th percentile = 3rd quartile
-+ 100th percentile = 4th quartile (also called the maximum)
