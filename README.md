@@ -12,7 +12,6 @@
 
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
-![07 03 2022_23 11 36_REC](https://user-images.githubusercontent.com/99672298/190672311-455f8683-96fc-4c5f-b091-0a3e2e76eb70.png)
 
 ## Kurtosis
 
