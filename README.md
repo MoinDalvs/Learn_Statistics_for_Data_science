@@ -8,6 +8,12 @@
 ## Mean
 ## MEdian
 ## Mode
+## Central Limit Theorem
+## Standard and Normal Distribution
+## Boxplot IQR 
+## Outliers
+## Variance
+## Standard Daviation
 ## Skewness
 
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
