@@ -15,6 +15,22 @@
 ## Variance
 ## Standard Daviation
 ## Skewness
+## Central Limit theorem
+## QQ- Plot
+## Normal distribution
+## Properties of Normal Distribution
+## Probability Density function
+## Feature scaling Transformations
+## log transformation
+## square- root transformation
+## reciprocal transformation
+## Box Cox Transformation
+## Yeo-johnson transformation
+## Euclidean Distance
+## Manhattan distance
+## Minkowski Distance
+## Covariance
+## Correlation
 
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
