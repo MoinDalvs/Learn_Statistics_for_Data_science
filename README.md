@@ -49,7 +49,19 @@ On the other hand, Quantitative data is numerical, and it is again divided into 
 
 ![25 02 2022_15 17 21_REC](https://user-images.githubusercontent.com/99672298/190960918-62283d9a-addc-41dc-85e1-806dcb215fcd.png)
 
-Continuous data: It can be represented in decimal format. Examples are height, weight, time, distance, etc.
+### Importance of Qualitative and Quantitative Data
+Qualitative types of data in research work around the characteristics of the retrieved information and helps understand customer behavior. This type of data in statistics helps run market analysis through genuine figures and create value out of service by implementing useful information. Qualitative types of data in statistics can drastically affect customer satisfaction if applied smartly.
+
+On the other hand, the Quantitative data types of statistical data work with numerical values that can be measured, answering questions such as ‘how much’, ‘how many’, or ‘how many times’. Quantitative data types in statistics contain a precise numerical value. Therefore, they can help organizations use these figures to gauge improved and faulty figures and predict future trends.
+
+### Can Ordinal and Discrete type overlap?
+If you pay attention to this, you can give numbering to the ordinal classes, and then it should be called discrete type or ordinal? The truth is that it is still ordinal. The reason for this is that even if the numbering is done, it doesn’t convey the actual distances between the classes.
+
+For instance, consider the grading system of a test. The respective grades can be A, B, C, D, E, and if we number them from starting then it would be 1,2,3,4,5. Now according to the numerical differences, the distance between E grade and D grade is the same as the distance between the D and C grade which is not very accurate as we all know that C grade is still acceptable as compared to E grade but the mid difference declares them as equal.
+
+You can also apply the same technique to a survey form where user experience is recorded on a scale of very poor to very good. The differences between various classes are not clear therefore can’t be quantified directly. 
+
+**Continuous data:** It can be represented in decimal format. Examples are height, weight, time, distance, etc.
 
 ![image](https://user-images.githubusercontent.com/99672298/190947983-633b685c-8c2b-4d2d-9e19-59ae88813b17.png)
 
@@ -57,9 +69,9 @@ Discrete data: It cannot be represented in decimal format. Examples are the numb
 
 Discrete data is again divided into Categorical and Count Data.
 
-Categorical data: represent the type of data that can be divided into groups. Examples are age, sex, etc.
+**Categorical data:** represent the type of data that can be divided into groups. Examples are age, sex, etc.
 
-Count data: This data contains non-negative integers. Example: number of children a couple has.
+**Count data:** This data contains non-negative integers. Example: number of children a couple has.
 
 ![image](https://user-images.githubusercontent.com/99672298/190947605-87aca262-3b39-49bc-98d2-ea4e200c91fb.png)
 
@@ -79,8 +91,11 @@ We have four fundamental levels of measurement. They are:
 ![01 02 2022_22 23 08_REC](https://user-images.githubusercontent.com/99672298/190960629-6490a598-e380-437f-a3ef-089da872f66f.png)
 
 1. **Nominal Scale:**
+These are the set of values that don’t possess a natural ordering. Let’s understand this with some examples.
 This scale contains the least information since the data have names/labels only. It can be used for classification. We cannot perform mathematical operations on nominal data because there is no numerical value to the options (numbers associated with the names can only be used as tags).
-The nominal scale uses categories, so finding the median makes no sense. You could put the items in alphabetical order but even then, the middle item would have no meaning as a median. However, a mode (the most frequent item in the set) is possible. For example, if you were to survey a group of random people and ask them what the most romantic city in the World is, Venice or Paris might be the most common response (the mode).
+The nominal scale uses categories, so finding the median makes no sense. You could put the items in alphabetical order but even then, the middle item would have no meaning as a median. However, a mode (the most frequent item in the set) is possible. For example, if you were to survey a group of random people and ask them what the most romantic city in the World is, Venice or Paris might be the most common response (the mode). It is not possible to state that ‘Red’ is greater than ‘Blue’. The gender of a person is another one where we can’t differentiate between male, female, or others. 
+
+Nominal data types in statistics are not quantifiable and cannot be measured through numerical units. Nominal types of statistical data are valuable while conducting qualitative research as it extends freedom of opinion to subjects.
 
 Example: Which country do you belong to? India, Japan, Korea.
 + Gender: Male, Female, Other.
@@ -91,6 +106,12 @@ Example: Which country do you belong to? India, Japan, Korea.
 
 2. **Ordinal Scale:** 
 
+These types of values have a natural ordering while maintaining their class of values. If we consider the size of a clothing brand then we can easily sort them according to their name tag in the order of small < medium < large. The grading system while marking candidates in a test can also be considered as an ordinal data type where A+ is definitely better than B grade. 
+
+These categories help us deciding which encoding strategy can be applied to which type of data. Data encoding for Qualitative data is important because machine learning models can’t handle these values directly and needed to be converted to numerical types as the models are mathematical in nature.
+
+For nominal data type where there is no comparison among the categories, one-hot encoding can be applied which is similar to binary coding considering there are in less number and for the ordinal data type, label encoding can be applied which is a form of integer encoding.
+
 ![image](https://user-images.githubusercontent.com/99672298/190952490-07302572-4556-4393-b3cb-56789c4be669.png)
 
 These scales are generally used to depict non-mathematical ideas such as frequency, satisfaction, happiness, a degree of pain, etc. It is quite straightforward to remember the implementation of this scale as ‘Ordinal’ sounds similar to ‘Order’, which is exactly the purpose of this scale.
@@ -98,6 +119,16 @@ These scales are generally used to depict non-mathematical ideas such as frequen
 Ordinal data is made up of ordinal variables. In other words, if you have a list that can be placed in “first, second, third…” order, you have ordinal data. It sounds simple, but there are a couple of elements that can be confusing:
 + You don’t have to have the exact words “first, second, third….” Instead, you can have different rating scales, like “Hot, hotter, hottest” or “Agree, strongly agree, disagree.”
 + You don’t know if the intervals between the values are equal. We know that a list of cardinal numbers like 1, 5, 10 have a set value between them (in this case, 5) but with ordinal data you just don’t know. For example, in a marathon you might have first, second and third place. But if you don’t know the exact finishing times, you don’t know what the interval between first and second, or second and third is.
+
+### Discrete
+The numerical values which fall under are integers or whole numbers are placed under this category. The number of speakers in the phone, cameras, cores in the processor, the number of sims supported all these are some of the examples of the discrete data type.
+
+Discrete data types in statistics cannot be measured – it can only be counted as the objects included in discrete data have a fixed value. The value can be represented in decimal, but it has to be whole. Discrete data is often identified through charts, including bar charts, pie charts, and tally charts.
+
+### Continuous
+ The fractional numbers are considered as continuous values. These can take the form of the operating frequency of the processors, the android version of the phone, wifi frequency, temperature of the cores, and so on. 
+
+Unlike discrete data types of data in research, with a whole and fixed value, continuous data can break down into smaller pieces and can take any value. For example, volatile values such as temperature and the weight of a human can be included in the continuous value. Continuous types of statistical data are represented using a graph that easily reflects value fluctuation by the highs and lows of the line through a certain period of time. 
 
 3. **Interval Scale:**
 It is a numerical scale. The Interval scale has more information than the nominal, ordinal scales. Along with the order, we know the difference between the two variables (interval indicates the distance between two entities).
@@ -228,13 +259,6 @@ According to mathematicians, when a data set is of normal distribution—that is
 ## Standard Deviation: It is the square root of Variance. Helps in retrieving the original units.
 
 ## Range: It is the difference between the maximum and the minimum values of a dataset.
-
-## Central Limit Theorem
-## Standard and Normal Distribution
-## Boxplot IQR 
-## Outliers
-
-![24 03 2022_11 04 54_REC](https://user-images.githubusercontent.com/99672298/190962879-0b5cda86-cd05-4638-8be0-9ee64f732117.png)
 
 ## Skewness
 
@@ -448,10 +472,33 @@ So, when scale is taken as 2, then according to IQR Method any data which lies b
       
 **When scale is taken as 1.5, then according to IQR Method any data which lies beyond 2.7σ from the mean (μ), on either side, shall be considered as outlier. And this decision range is the closest to what Gaussian Distribution tells us, i.e., 3σ. In other words, this makes the decision rule closest to what Gaussian Distribution considers for outlier detection, and this is exactly what we wanted.**
 
-## Central Limit theorem
-## QQ- Plot
+## Central Limit Theorem
+
+Instead of analyzing entire population data, we always take out a sample for analysis. The problem with sampling is that “sample means is a random variable – varies for different samples”. And random sample we draw can never be an exact representation of the population. This phenomenon is called sample variation.
+
+To nullify the sample variation, we use the central limit theorem. And according to the Central Limit Theorem:
+
+1. The distribution of sample means follows a normal distribution if the population is normal.
+
+2. the distribution of sample means follows a normal distribution even though the population is not normal. But the sample size should be large enough.
+
+3. The grand average of all the sample mean values give us the population mean.
+
+4. Theoretically, the sample size should be 30. And practically, the condition on the sample size (n) is:
+
+n > 10(k3)2, where k3 is the sample skewness.
+
+n > 10(k4), where K4 is the sample Kurtosis.
+
 ## Normal distribution
 ## Properties of Normal Distribution
+## Boxplot IQR 
+## Outliers
+
+![24 03 2022_11 04 54_REC](https://user-images.githubusercontent.com/99672298/190962879-0b5cda86-cd05-4638-8be0-9ee64f732117.png)
+
+## QQ- Plot
+
 ## Probability Density function
 ## Feature scaling Transformations
 ## log transformation
