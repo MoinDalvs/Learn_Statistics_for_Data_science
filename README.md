@@ -1,4 +1,4 @@
-# Learn_basic_stats_for-Data_science
+# Learn_stats_for-Data_science
 
 ![inbox_221701_c1e7f0c6c305bffe3d62bd37d8783ed8_prob](https://user-images.githubusercontent.com/99672298/190671924-4c9b0dd4-243b-4828-9ade-f91a0555bb16.png)
 ![30 03 2022_15 52 11_REC](https://user-images.githubusercontent.com/99672298/190672178-6591a16f-0939-4262-9226-3bcfb40a7e7f.png)
