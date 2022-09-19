@@ -89,6 +89,8 @@ We have four fundamental levels of measurement. They are:
 + Ratio Scale
 
 ![01 02 2022_22 23 08_REC](https://user-images.githubusercontent.com/99672298/190960629-6490a598-e380-437f-a3ef-089da872f66f.png)
+![image](https://user-images.githubusercontent.com/99672298/190980595-655ecb68-d1ea-441a-abf1-7f46625ad73f.png)
+![image](https://user-images.githubusercontent.com/99672298/190980780-6374b5bd-44f8-4c75-ae5c-259638d1068e.png)
 
 1. **Nominal Scale:**
 These are the set of values that don’t possess a natural ordering. Let’s understand this with some examples.
@@ -179,6 +181,8 @@ It is the sum of all the data points divided by the total number of values in th
 
 It is the middlemost value of a sorted/ordered dataset. If the size of the dataset is even, then the median is calculated by taking the average of the two middle values. In case of outliers Mean cannot be relied upon as much as median. A Median will have better representation of information when an outliers are present.
 
+![15 09 2022_21 39 39_REC](https://user-images.githubusercontent.com/99672298/190981525-b87b46fc-3690-4822-a21e-a32f4bc90730.png)
+
 ## Mode
 
 It is the most repeated value in the dataset. Data with a single mode is called unimodal, data with two modes is called bimodal, and data with more than two modes is called multimodal.
@@ -260,7 +264,11 @@ According to mathematicians, when a data set is of normal distribution—that is
 
 ## Range: It is the difference between the maximum and the minimum values of a dataset.
 
+![15 09 2022_22 06 15_REC](https://user-images.githubusercontent.com/99672298/190981467-9fbdb171-665c-46bc-9bf2-62dc9b94459f.png)
+
 ## Skewness
+
+![16 09 2022_19 29 02_REC](https://user-images.githubusercontent.com/99672298/190981085-24b6ee9a-e72a-4920-98bc-582ac2651fcb.png)
 
 (It is also known as Third Moment Business Decision)
 
@@ -358,6 +366,8 @@ Some types of quantiles even have specific names, including:
 + 8-quantiles are called octiles.
 + 10-quantiles are called deciles.
 + 100-quantiles are called percentiles.
+
+![26 02 2022_13 27 12_REC](https://user-images.githubusercontent.com/99672298/190982569-a866dc6f-d50b-490a-953a-806c3789a9e3.png)
 
 ### What is a Quantile?
 The word “quantile” comes from the word quantity. In simple terms, a quantile is where a sample is divided into equal-sized, adjacent, subgroups (that’s why it’s sometimes called a “fractile“). It can also refer to dividing a probability distribution into areas of equal probability.
@@ -490,9 +500,48 @@ n > 10(k3)2, where k3 is the sample skewness.
 
 n > 10(k4), where K4 is the sample Kurtosis.
 
+## Sampling techniques
+
+![maxresdefault](https://user-images.githubusercontent.com/99672298/190982038-48814cf2-36b0-4c0c-ba3d-5e482215b5ab.jpg)
+![sampling-frame-l](https://user-images.githubusercontent.com/99672298/190982014-bf195c6b-bf2e-4e80-8984-ab791c30488c.jpg)
+![13 09 2022_15 00 15_REC](https://user-images.githubusercontent.com/99672298/190981696-9dc82d2b-d7d0-43ce-884c-d22c4863798a.png)
+![12 09 2022_20 35 15_REC](https://user-images.githubusercontent.com/99672298/190981714-719a460c-f90f-4569-ac11-17e17768276d.png)
+![26 02 2022_13 24 51_REC](https://user-images.githubusercontent.com/99672298/190982694-60e2e38a-d455-4b9f-a901-06ce57ff0bb6.png)
+![26 02 2022_13 25 16_REC](https://user-images.githubusercontent.com/99672298/190982664-fce582ac-42dd-45ec-9ce2-258dfd43ba4e.png)
+![26 02 2022_13 25 30_REC](https://user-images.githubusercontent.com/99672298/190982651-35e81bed-667f-4b1f-a83d-1ef7bb6b9dd1.png)
+![26 02 2022_13 25 44_REC](https://user-images.githubusercontent.com/99672298/190982636-8fa83fc2-4efe-4b7b-91fe-dbf0e4b45684.png)
+![26 02 2022_13 25 59_REC](https://user-images.githubusercontent.com/99672298/190982621-15f87cde-6ecf-4f08-93fa-fafee27ab9e3.png)
+![stratified-sampling-example-vector-illustration-diagram-research-method-explanation-scheme-person-symbols-stages-175044570](https://user-images.githubusercontent.com/99672298/190982306-e600f6a2-5761-46e3-9307-e851b201edeb.jpg)
+![StratifiedRandomSampling](https://user-images.githubusercontent.com/99672298/190982472-9f346a6d-afab-40bd-815f-7f37b5fae9be.jpg)
+![stratified-random-sampling-2-768x460](https://user-images.githubusercontent.com/99672298/190982325-d585230e-b005-4e92-bfea-09c5c04b8e76.jpg)
+![stratified-cluster-sampling-l](https://user-images.githubusercontent.com/99672298/190982455-424f3441-91d1-423e-89f2-18a9af2824a5.jpg)
+![images](https://user-images.githubusercontent.com/99672298/190982464-68d994c1-b52c-48de-abc8-eff35923a708.png)
+
+![TC_606106-heterogeneous-and-homogeneous-mixtures1-5ac4f1a9642dca0036847e52](https://user-images.githubusercontent.com/99672298/190981958-c427f4bc-ced1-4f25-a483-581fed6fe83c.png)
+
+## Sampling Error
+
+![14 09 2022_15 26 06_REC](https://user-images.githubusercontent.com/99672298/190981654-40f11b96-e4e7-458e-95bc-bc0cd55ec263.png)
+![14 09 2022_13 01 17_REC](https://user-images.githubusercontent.com/99672298/190981679-575129e1-463f-4707-8be4-d51fd1369780.png)
+
 ## Normal distribution
+
+![16 09 2022_16 31 55_REC](https://user-images.githubusercontent.com/99672298/190981214-f7ef6fda-825d-43e1-9e8c-70c5d2f5fa0f.png)
+![16 09 2022_18 56 19_REC](https://user-images.githubusercontent.com/99672298/190981163-f92e9d08-9ab8-463e-bd62-7a34558b3530.png)
+![16 09 2022_18 55 14_REC](https://user-images.githubusercontent.com/99672298/190981186-296b8ac1-1fb8-4d19-8d75-fe04120328ae.png)
+![common-distribution_huec055ab3bd48482f92384431f8f73d3e_75898_900x500_fit_box_2](https://user-images.githubusercontent.com/99672298/190981750-bf877d2f-816a-49bc-bc43-371d54b9ec40.png)
+
 ## Properties of Normal Distribution
-## Boxplot IQR 
+
+![16 09 2022_19 52 31_REC](https://user-images.githubusercontent.com/99672298/190980913-dc1a9cf4-9469-4ae7-83fe-15f0f366f263.png)
+
+## Boxplot 
+
+![26 02 2022_15 16 46_REC](https://user-images.githubusercontent.com/99672298/190982234-fd5a78fe-76e7-437c-bb31-8fcc2260bdb4.png)
+![26 02 2022_15 15 12_REC](https://user-images.githubusercontent.com/99672298/190982264-09bf95b5-c1f8-49f1-ac66-e5e6d568dbe8.png)
+![xBoxPlotandNormalDistribution JPG pagespeed ic 84HerCY3C7](https://user-images.githubusercontent.com/99672298/190981362-928d074f-e27c-4950-a21b-0172c862150e.jpg)
+![xBoxPlot jpg pagespeed ic OUUzjm6fGL](https://user-images.githubusercontent.com/99672298/190981414-aa3df22c-2498-44d3-942c-8215bc2125b2.jpg)
+
 ## Outliers
 
 ![24 03 2022_11 04 54_REC](https://user-images.githubusercontent.com/99672298/190962879-0b5cda86-cd05-4638-8be0-9ee64f732117.png)
@@ -510,4 +559,12 @@ n > 10(k4), where K4 is the sample Kurtosis.
 ## Manhattan distance
 ## Minkowski Distance
 ## Covariance
+
+![07 05 2022_13 13 53_REC](https://user-images.githubusercontent.com/99672298/190981837-3684c83b-3a03-494a-b1e2-c4cec3dbd611.png)
+![04 05 2022_20 05 57_REC](https://user-images.githubusercontent.com/99672298/190981878-f7ef77f3-6ea8-49b1-97c9-909c5baf0ada.png)
+![Covariance-Formula](https://user-images.githubusercontent.com/99672298/190981973-c91ce53d-c933-48e7-bab1-8ef22905c33f.jpg)
+
+
 ## Correlation
+
+![31 03 2022_12 27 48_REC](https://user-images.githubusercontent.com/99672298/190981901-f8fd0acf-458d-47d1-ba48-ebcaef9abf37.png)
