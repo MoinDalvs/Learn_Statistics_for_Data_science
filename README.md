@@ -177,6 +177,8 @@ When thinking about the cause of the multimodality, you may want to take a close
 
 ![image](https://user-images.githubusercontent.com/99672298/190957530-3009f629-cf5c-436d-94ca-a7fe104dff6a.png)
 
+<img width="620" alt="3739f8e23248b79e3002acc01005beb2" src="https://user-images.githubusercontent.com/99672298/190962957-3a75ea7f-2a4f-4b52-9db6-fb29666ce62c.png">
+
 ### Mean vs Median
 
 Mean will tell the Average and in some sense it will give ust the central tendecy of the data. Median will give the middle most value of the data and in both case they are telling us central tendecy (centre of the data). In case of outliers mean cannot be trusted as much as median. A median will have better representation of information when as outliers are present and if the mean is greater than median the distribution is right skewed and if the mean is lesser than median the distribution is right skewed.
@@ -221,6 +223,8 @@ According to mathematicians, when a data set is of normal distribution—that is
 
 ## Variance: It is the average squared distance of all the data points from their mean. The problem with Variance is, the units will also get squared.
 
+![07 05 2022_13 13 53_REC](https://user-images.githubusercontent.com/99672298/190963012-a972ef22-0200-44d2-a4f3-8faa5efa176e.png)
+
 ## Standard Deviation: It is the square root of Variance. Helps in retrieving the original units.
 
 ## Range: It is the difference between the maximum and the minimum values of a dataset.
@@ -229,6 +233,9 @@ According to mathematicians, when a data set is of normal distribution—that is
 ## Standard and Normal Distribution
 ## Boxplot IQR 
 ## Outliers
+
+![24 03 2022_11 04 54_REC](https://user-images.githubusercontent.com/99672298/190962879-0b5cda86-cd05-4638-8be0-9ee64f732117.png)
+
 ## Skewness
 
 (It is also known as Third Moment Business Decision)
@@ -239,9 +246,11 @@ Positive/right-skewed: Data is said to be positively skewed if most of the data 
 
 Negative/left-skewed: Data is said to be negatively skewed if most of the data is concentrated to the right side and has a tail towards the left.
 
-![26 02 2022_15 03 16_REC](https://user-images.githubusercontent.com/99672298/190961058-5a86f893-2ce9-4da2-aae3-aa66a23f4e76.png)
+![image](https://user-images.githubusercontent.com/99672298/190962416-8a01be82-e230-4e2e-be1c-da53288128eb.png)
+![image](https://user-images.githubusercontent.com/99672298/190962452-0094c080-4269-430d-8c9c-5f2734979c22.png)
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
+![26 02 2022_15 13 10_REC](https://user-images.githubusercontent.com/99672298/190962548-87f13d54-87b7-4edf-8c4e-d65a0e913657.png)
 
 ## Kurtosis
 
