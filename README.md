@@ -12,6 +12,8 @@ Statistics is broadly categorized into two types:
 + Descriptive Statistics
 + Inferential Statistics
 
+![01 02 2022_22 16 38_REC](https://user-images.githubusercontent.com/99672298/190960580-a9d37c78-33e0-4092-bb0c-035ed724d6b7.png)
+
 ### Descriptive Statistics:
 It utilized numerical and graphical methods to look for patterns in a dataset, to summarize the information revealed in a dataset, and to present the information in a convinient form that individuals can use to make decisions( Mean, Median, Mode, Variance, Standard deviation and charts ore Probability Distribution)
 
@@ -39,9 +41,13 @@ There is structured and unstructured data. Then you have qualitative and quantit
 
 At a higher level, data is categorized into two types: Qualitative and Quantitative.
 
+![25 02 2022_15 16 47_REC](https://user-images.githubusercontent.com/99672298/190960830-5d75e078-ee70-49ee-98f1-20a6ce630ffc.png)
+
 Qualitative data is non-numerical. Some of the examples are eye colour, car brand, city, etc.
 
 On the other hand, Quantitative data is numerical, and it is again divided into Continuous and Discrete data.
+
+![25 02 2022_15 17 21_REC](https://user-images.githubusercontent.com/99672298/190960918-62283d9a-addc-41dc-85e1-806dcb215fcd.png)
 
 Continuous data: It can be represented in decimal format. Examples are height, weight, time, distance, etc.
 
@@ -70,7 +76,10 @@ We have four fundamental levels of measurement. They are:
 + Interval Scale
 + Ratio Scale
 
-1. Nominal Scale: This scale contains the least information since the data have names/labels only. It can be used for classification. We cannot perform mathematical operations on nominal data because there is no numerical value to the options (numbers associated with the names can only be used as tags).
+![01 02 2022_22 23 08_REC](https://user-images.githubusercontent.com/99672298/190960629-6490a598-e380-437f-a3ef-089da872f66f.png)
+
+1. **Nominal Scale:**
+This scale contains the least information since the data have names/labels only. It can be used for classification. We cannot perform mathematical operations on nominal data because there is no numerical value to the options (numbers associated with the names can only be used as tags).
 The nominal scale uses categories, so finding the median makes no sense. You could put the items in alphabetical order but even then, the middle item would have no meaning as a median. However, a mode (the most frequent item in the set) is possible. For example, if you were to survey a group of random people and ask them what the most romantic city in the World is, Venice or Paris might be the most common response (the mode).
 
 Example: Which country do you belong to? India, Japan, Korea.
@@ -80,7 +89,7 @@ Example: Which country do you belong to? India, Japan, Korea.
 + Genotype: Bb, bb, BB, bB.
 + Religious preference: Buddhist, Mormon, Muslim, Jewish, Christian, Other.
 
-2.) Ordinal Scale: 
+2. **Ordinal Scale:** 
 
 ![image](https://user-images.githubusercontent.com/99672298/190952490-07302572-4556-4393-b3cb-56789c4be669.png)
 
@@ -90,7 +99,7 @@ Ordinal data is made up of ordinal variables. In other words, if you have a list
 + You don’t have to have the exact words “first, second, third….” Instead, you can have different rating scales, like “Hot, hotter, hottest” or “Agree, strongly agree, disagree.”
 + You don’t know if the intervals between the values are equal. We know that a list of cardinal numbers like 1, 5, 10 have a set value between them (in this case, 5) but with ordinal data you just don’t know. For example, in a marathon you might have first, second and third place. But if you don’t know the exact finishing times, you don’t know what the interval between first and second, or second and third is.
 
-3.) Interval Scale:
+3. **Interval Scale:**
 It is a numerical scale. The Interval scale has more information than the nominal, ordinal scales. Along with the order, we know the difference between the two variables (interval indicates the distance between two entities).
 
 These scales are effective as they open doors for the statistical analysis of provided data. Mean, median, or mode can be used to calculate the central tendency in this scale. The only drawback of this scale is that there no pre-decided starting point or a true zero value.
@@ -105,7 +114,7 @@ For instance, consider a Celsius/Fahrenheit temperature scale –
 The mean and median values in an ordinal scale can be evaluated, unlike the previous two scales.
 + In statistics, interval scale is frequently used as a numerical value can not only be assigned to variables but calculation on the basis of those values can also be carried out.
 
-4.) Ratio Scale: 
+4. **Ratio Scale:**
 The ratio scale has the most information about the data. Unlike the other three scales, the ratio scale can accommodate a true zero point. The ratio scale is simply said to be the combination of Nominal, Ordinal, and Intercal scales.
 
 With the option of true zero, varied inferential, and descriptive analysis techniques can be applied to the variables. In addition to the fact that the ratio scale does everything that a nominal, ordinal, and interval scale can do, it can also establish the value of absolute zero. The best examples of ratio scales are weight and height. In market research, a ratio scale is used to calculate market share, annual sales, the price of an upcoming product, the number of consumers, etc.
@@ -116,20 +125,121 @@ With the option of true zero, varied inferential, and descriptive analysis techn
 + To decide when to use a ratio scale, the researcher must observe whether the variables have all the characteristics of an interval scale along with the presence of the absolute zero value.
 + Mean, mode and median can be calculated using the ratio scale.
 
+![25 02 2022_15 17 50_REC](https://user-images.githubusercontent.com/99672298/190960855-3ea2e75b-8c8c-4aee-b0c7-330da0afae19.png)
 ![image](https://user-images.githubusercontent.com/99672298/190954184-33f4918c-920e-4c3c-a2ab-4013e6206fbc.png)
 ![image](https://user-images.githubusercontent.com/99672298/190954195-4019d825-3784-4328-a78f-1ab964bbbb93.png)
+![image](https://user-images.githubusercontent.com/99672298/190954635-62b632cc-ef5d-4195-9760-8a4c1ffb5a4d.png)
+
+## Moments of Business Decision
+
+We have four moments of business decision that help us understand the data.
+
+### Measures of Central tendency
+
+(It is also known as First Moment Business Decision)
+
+Talks about the centrality of the data. To keep it simple, it is a part of descriptive statistical analysis where a single value at the centre represents the entire dataset.
 
 ## Mean
+
+It is the sum of all the data points divided by the total number of values in the data set. Mean cannot always be relied upon because it is influenced by outliers.
+
 ## MEdian
+
+It is the middlemost value of a sorted/ordered dataset. If the size of the dataset is even, then the median is calculated by taking the average of the two middle values. In case of outliers Mean cannot be relied upon as much as median. A Median will have better representation of information when an outliers are present.
+
 ## Mode
+
+It is the most repeated value in the dataset. Data with a single mode is called unimodal, data with two modes is called bimodal, and data with more than two modes is called multimodal.
+
++ A multimodal distribution is a probability distribution with more than one peak, or “mode.”
++ A distribution with one peak is called unimodal
++ A distribution with two peaks is called bimodal
++ A distribution with two peaks or more is multimodal
++ A bimodal distribution is also multimodal, as there are multiple peaks.
+
++ A comb distribution is so-called because the distribution looks like a comb, with alternating high and low peaks. A comb shape can be caused by rounding off. For example, if you are measuring water height to the nearest 10 cm and your class width for the histogram is 5 cm, this could cause a comb shape.
+
+![image](https://user-images.githubusercontent.com/99672298/190957391-7ee25a6e-7cb9-43dc-bc81-dac4102a570d.png)
+
+An edge peak distribution is where there is an additional, out of place peak at the edge of the distribution. This usually means that you’ve plotted (or collected) your data incorrectly, unless you know for sure your data set has an expected set of outliers (i.e. a few extreme views on a survey).
+
+![image](https://user-images.githubusercontent.com/99672298/190957418-32d1674c-97cb-49f8-88f5-aeefd22851d4.png)
+
+A multimodal distribution is known as a Plateau Distribution when there are more than a few peaks close together.
+
+![image](https://user-images.githubusercontent.com/99672298/190957449-01447354-8565-498f-aa9d-d42f10105e44.png)
+
+#### Causes of a Multimodal Distribution
+A multimodal distribution in a sample is usually an indication that the distribution in the population is not normal. It can also indicate that your sample has several patterns of response or extreme views, preferences or attitudes.
+
+When thinking about the cause of the multimodality, you may want to take a close look at your data; what may be going on is that two or more distributions are being graphed at the same time. This is opposed to a true multimodal distribution, where only one distribution is mapped. For example, the following image shows two groups of students, one of which studied (the peak on the left) and one of which didn’t (the peak on the right).
+
+![image](https://user-images.githubusercontent.com/99672298/190957530-3009f629-cf5c-436d-94ca-a7fe104dff6a.png)
+
+### Mean vs Median
+
+Mean will tell the Average and in some sense it will give ust the central tendecy of the data. Median will give the middle most value of the data and in both case they are telling us central tendecy (centre of the data). In case of outliers mean cannot be trusted as much as median. A median will have better representation of information when as outliers are present and if the mean is greater than median the distribution is right skewed and if the mean is lesser than median the distribution is right skewed.
+
+## The Difference Between Standard Deviation and Average Deviation
+
+### Standard Deviation Versus Average Deviation
+Two of the most popular ways to measure variability or volatility in a set of data are standard deviation and average deviation, also known as mean absolute deviation. Though the two measurements are similar, they are calculated differently and offer slightly different views of data.
+
+Determining volatility—that is, deviation from the center—is important in finance, so professionals in accounting, investing, and economics should be familiar with both concepts.
+
+#### KEY TAKEAWAYS
++ Standard deviation is the most common measure of variability and is frequently used to determine the volatility of financial instruments and investment returns.
++ Standard deviation is considered the most appropriate measure of variability when using a population sample, when the mean is the best measure of center, and when the distribution of data is normal.
++ Some argue that average deviation, or mean absolute deviation, is a better gauge of variability when there are distant outliers or the data is not well distributed.
+
+### Understanding Standard Deviation
+Standard deviation is the most common measure of variability and is frequently used to determine the volatility of markets, financial instruments, and investment returns. To calculate the standard deviation:
+
++ Find the mean, or average, of the data points by adding them and dividing the total by the number of data points.
++ Subtract the mean from each data point and square the difference of each result.
++ Find the mean of those squared differences and then the square root of the mean.
+
+Squaring the differences between each point and the mean avoids the issue of negative differences for values below the mean, but it means the variance is no longer in the same unit of measure as the original data. Taking the square root means the standard deviation returns to the original unit of measure and is easier to interpret and use in further calculations.
+
+### Average Deviation
+The average deviation, or mean absolute deviation, is calculated similarly to standard deviation, but it uses absolute values instead of squares to circumvent the issue of negative differences between the data points and their means.
+
+To calculate the average deviation:
+
++ Calculate the mean of all data points.
++ Calculate the difference between the mean and each data point.
++ Calculate the average of the absolute values of those differences.
+
+### Standard Deviation Versus Average Deviation
+Standard deviation is often used to measure the volatility of returns from investment funds or strategies because it can help measure volatility. Higher volatility is generally associated with a higher risk of losses, so investors want to see higher returns from funds that generate higher volatility. For example, a stock index fund should have relatively low standard deviation compared with a growth fund.
+
+The mean average, or mean absolute deviation, is considered the closest alternative to standard deviation. It is also used to gauge volatility in markets and financial instruments, but it is used less frequently than standard deviation.
+
+According to mathematicians, when a data set is of normal distribution—that is, there aren't many outliers—standard deviation is generally the preferable gauge of variability. But when there are large outliers, standard deviation registers higher levels of dispersion (or deviation from the center) than mean absolute deviation.
+
+
+## Variance: It is the average squared distance of all the data points from their mean. The problem with Variance is, the units will also get squared.
+
+## Standard Deviation: It is the square root of Variance. Helps in retrieving the original units.
+
+## Range: It is the difference between the maximum and the minimum values of a dataset.
+
 ## Central Limit Theorem
 ## Standard and Normal Distribution
 ## Boxplot IQR 
 ## Outliers
-## Variance
-## Standard Daviation
 ## Skewness
 
+(It is also known as Third Moment Business Decision)
+
+It measures the asymmetry in the data. The two types of Skewness are:
+
+Positive/right-skewed: Data is said to be positively skewed if most of the data is concentrated to the left side and has a tail towards the right.
+
+Negative/left-skewed: Data is said to be negatively skewed if most of the data is concentrated to the right side and has a tail towards the left.
+
+![26 02 2022_15 03 16_REC](https://user-images.githubusercontent.com/99672298/190961058-5a86f893-2ce9-4da2-aae3-aa66a23f4e76.png)
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
 
@@ -183,43 +293,6 @@ Leptokurtic indicates a positive excess kurtosis. The leptokurtic distribution s
 
 ### Platykurtic
 A platykurtic distribution shows a negative excess kurtosis. The kurtosis reveals a distribution with flat tails. The flat tails indicate the small outliers in a distribution. In the finance context, the platykurtic distribution of the investment returns is desirable for investors because there is a small probability that the investment would experience extreme returns.
-
-## The Difference Between Standard Deviation and Average Deviation
-
-### Standard Deviation Versus Average Deviation
-Two of the most popular ways to measure variability or volatility in a set of data are standard deviation and average deviation, also known as mean absolute deviation. Though the two measurements are similar, they are calculated differently and offer slightly different views of data.
-
-Determining volatility—that is, deviation from the center—is important in finance, so professionals in accounting, investing, and economics should be familiar with both concepts.
-
-#### KEY TAKEAWAYS
-+ Standard deviation is the most common measure of variability and is frequently used to determine the volatility of financial instruments and investment returns.
-+ Standard deviation is considered the most appropriate measure of variability when using a population sample, when the mean is the best measure of center, and when the distribution of data is normal.
-+ Some argue that average deviation, or mean absolute deviation, is a better gauge of variability when there are distant outliers or the data is not well distributed.
-
-### Understanding Standard Deviation
-Standard deviation is the most common measure of variability and is frequently used to determine the volatility of markets, financial instruments, and investment returns. To calculate the standard deviation:
-
-+ Find the mean, or average, of the data points by adding them and dividing the total by the number of data points.
-+ Subtract the mean from each data point and square the difference of each result.
-+ Find the mean of those squared differences and then the square root of the mean.
-
-Squaring the differences between each point and the mean avoids the issue of negative differences for values below the mean, but it means the variance is no longer in the same unit of measure as the original data. Taking the square root means the standard deviation returns to the original unit of measure and is easier to interpret and use in further calculations.
-
-### Average Deviation
-The average deviation, or mean absolute deviation, is calculated similarly to standard deviation, but it uses absolute values instead of squares to circumvent the issue of negative differences between the data points and their means.
-
-To calculate the average deviation:
-
-+ Calculate the mean of all data points.
-+ Calculate the difference between the mean and each data point.
-+ Calculate the average of the absolute values of those differences.
-
-### Standard Deviation Versus Average Deviation
-Standard deviation is often used to measure the volatility of returns from investment funds or strategies because it can help measure volatility. Higher volatility is generally associated with a higher risk of losses, so investors want to see higher returns from funds that generate higher volatility. For example, a stock index fund should have relatively low standard deviation compared with a growth fund.
-
-The mean average, or mean absolute deviation, is considered the closest alternative to standard deviation. It is also used to gauge volatility in markets and financial instruments, but it is used less frequently than standard deviation.
-
-According to mathematicians, when a data set is of normal distribution—that is, there aren't many outliers—standard deviation is generally the preferable gauge of variability. But when there are large outliers, standard deviation registers higher levels of dispersion (or deviation from the center) than mean absolute deviation.
 
 ## Percentile vs. Quartile vs. Quantile: What’s the Difference?
 
