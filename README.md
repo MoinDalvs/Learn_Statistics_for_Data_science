@@ -5,6 +5,120 @@
 ![30 03 2022_15 52 32_REC](https://user-images.githubusercontent.com/99672298/190672197-76e232bd-1202-408c-a7b0-1bde68671d38.png)
 ![30 03 2022_15 53 01_REC](https://user-images.githubusercontent.com/99672298/190672213-c2e51ed4-1840-4fa5-b51e-6a4916968f4f.png)
 
+## Statistics and its types
+
+Statistics is broadly categorized into two types:
+
++ Descriptive Statistics
++ Inferential Statistics
+
+### Descriptive Statistics:
+It utilized numerical and graphical methods to look for patterns in a dataset, to summarize the information revealed in a dataset, and to present the information in a convinient form that individuals can use to make decisions( Mean, Median, Mode, Variance, Standard deviation and charts ore Probability Distribution)
+
+Basically, as part of descriptive Statistics, we measure the following:
+
++ Frequency: no. of times a data point occurs
++ Central tendency: the centrality of the data – mean, median, and mode
++ Dispersion: the spread of the data – range, variance, and standard deviation
++ The measure of position: percentiles and quantile ranks
+
+### Inferential Statistics
+In Inferential statistics,  utilizing sample data, to estimate decisions, predictions or other generalization by running Hypothesis testing to assess the assumptions made about the population parameters.
+
+In simple terms, we interpret the meaning of the descriptive statistics by inferring them to the population. The main goal of inferential statistics is to make a conclusion about a population based off a sample of data from the population. 
+
+For example, we are conducting a survey on the number of two-wheelers in a city. Assume the city has a total population of 5L people. So, we take a sample of 1000 people as it is impossible to run an analysis on entire population data.
+
+From the survey conducted, it is found that 800 people out of 1000 (800 out of 1000 is 80%) are using two-wheelers. So, we can infer these results to the population and conclude that 4L people out of the 5L population are using two-wheelers.
+
+### Data Types and Level of Measurement
+
+There is structured and unstructured data. Then you have qualitative and quantitative data. Now let's explore two more data types (discrete and continuous) and help you understand the difference. 
+
+![image](https://user-images.githubusercontent.com/99672298/190947841-6179d7b7-2799-4856-b4be-d5987abfbde0.png)
+
+At a higher level, data is categorized into two types: Qualitative and Quantitative.
+
+Qualitative data is non-numerical. Some of the examples are eye colour, car brand, city, etc.
+
+On the other hand, Quantitative data is numerical, and it is again divided into Continuous and Discrete data.
+
+Continuous data: It can be represented in decimal format. Examples are height, weight, time, distance, etc.
+
+![image](https://user-images.githubusercontent.com/99672298/190947983-633b685c-8c2b-4d2d-9e19-59ae88813b17.png)
+
+Discrete data: It cannot be represented in decimal format. Examples are the number of laptops, number of students in a class.
+
+Discrete data is again divided into Categorical and Count Data.
+
+Categorical data: represent the type of data that can be divided into groups. Examples are age, sex, etc.
+
+Count data: This data contains non-negative integers. Example: number of children a couple has.
+
+![image](https://user-images.githubusercontent.com/99672298/190947605-87aca262-3b39-49bc-98d2-ea4e200c91fb.png)
+
+### Level of Measurement
+In statistics, the level of measurement is a classification that describes the relationship between the values of a variable.
+
+![image](https://user-images.githubusercontent.com/99672298/190948985-801268e9-f19a-4aa0-845e-54fdce98a1fb.png)
+![image](https://user-images.githubusercontent.com/99672298/190952524-d2c841eb-e176-4bec-8c2f-20941eef601b.png)
+
+We have four fundamental levels of measurement. They are:
+
++ Nominal Scale
++ Ordinal Scale
++ Interval Scale
++ Ratio Scale
+
+1. Nominal Scale: This scale contains the least information since the data have names/labels only. It can be used for classification. We cannot perform mathematical operations on nominal data because there is no numerical value to the options (numbers associated with the names can only be used as tags).
+The nominal scale uses categories, so finding the median makes no sense. You could put the items in alphabetical order but even then, the middle item would have no meaning as a median. However, a mode (the most frequent item in the set) is possible. For example, if you were to survey a group of random people and ask them what the most romantic city in the World is, Venice or Paris might be the most common response (the mode).
+
+Example: Which country do you belong to? India, Japan, Korea.
++ Gender: Male, Female, Other.
++ Hair Color: Brown, Black, Blonde, Red, Other.
++ Type of living accommodation: House, Apartment, Trailer, Other.
++ Genotype: Bb, bb, BB, bB.
++ Religious preference: Buddhist, Mormon, Muslim, Jewish, Christian, Other.
+
+2.) Ordinal Scale: 
+
+![image](https://user-images.githubusercontent.com/99672298/190952490-07302572-4556-4393-b3cb-56789c4be669.png)
+
+These scales are generally used to depict non-mathematical ideas such as frequency, satisfaction, happiness, a degree of pain, etc. It is quite straightforward to remember the implementation of this scale as ‘Ordinal’ sounds similar to ‘Order’, which is exactly the purpose of this scale.
+
+Ordinal data is made up of ordinal variables. In other words, if you have a list that can be placed in “first, second, third…” order, you have ordinal data. It sounds simple, but there are a couple of elements that can be confusing:
++ You don’t have to have the exact words “first, second, third….” Instead, you can have different rating scales, like “Hot, hotter, hottest” or “Agree, strongly agree, disagree.”
++ You don’t know if the intervals between the values are equal. We know that a list of cardinal numbers like 1, 5, 10 have a set value between them (in this case, 5) but with ordinal data you just don’t know. For example, in a marathon you might have first, second and third place. But if you don’t know the exact finishing times, you don’t know what the interval between first and second, or second and third is.
+
+3.) Interval Scale:
+It is a numerical scale. The Interval scale has more information than the nominal, ordinal scales. Along with the order, we know the difference between the two variables (interval indicates the distance between two entities).
+
+These scales are effective as they open doors for the statistical analysis of provided data. Mean, median, or mode can be used to calculate the central tendency in this scale. The only drawback of this scale is that there no pre-decided starting point or a true zero value.
+
+Interval scale contains all the properties of the ordinal scale, in addition to which, it offers a calculation of the difference between variables. The main characteristic of this scale is the equidistant difference between objects.  
+
+For instance, consider a Celsius/Fahrenheit temperature scale –
+
++ 80 degrees is always higher than 50 degrees and the difference between these two temperatures is the same as the difference between 70 degrees and 40 degrees.
++ Also, the value of 0 is arbitrary because negative values of temperature do exist – which makes the Celsius/Fahrenheit temperature scale a classic example of an interval scale.
++ Interval scale is often chosen in research cases where the difference between variables is a mandate – which can’t be achieved using a nominal or ordinal scale. The Interval scale quantifies the difference between two variables whereas the other two scales are solely capable of associating qualitative values with variables.
+The mean and median values in an ordinal scale can be evaluated, unlike the previous two scales.
++ In statistics, interval scale is frequently used as a numerical value can not only be assigned to variables but calculation on the basis of those values can also be carried out.
+
+4.) Ratio Scale: 
+The ratio scale has the most information about the data. Unlike the other three scales, the ratio scale can accommodate a true zero point. The ratio scale is simply said to be the combination of Nominal, Ordinal, and Intercal scales.
+
+With the option of true zero, varied inferential, and descriptive analysis techniques can be applied to the variables. In addition to the fact that the ratio scale does everything that a nominal, ordinal, and interval scale can do, it can also establish the value of absolute zero. The best examples of ratio scales are weight and height. In market research, a ratio scale is used to calculate market share, annual sales, the price of an upcoming product, the number of consumers, etc.
+
++ Ratio scale provides the most detailed information as researchers and statisticians can calculate the central tendency using statistical techniques such as mean, median, mode, and methods such as geometric mean, the coefficient of variation, or harmonic mean can also be used on this scale.
++ Ratio scale accommodates the characteristic of three other variable measurement scales, i.e. labeling the variables, the significance of the order of variables, and a calculable difference between variables (which are usually equidistant).
++ Because of the existence of true zero value, the ratio scale doesn’t have negative values.
++ To decide when to use a ratio scale, the researcher must observe whether the variables have all the characteristics of an interval scale along with the presence of the absolute zero value.
++ Mean, mode and median can be calculated using the ratio scale.
+
+![image](https://user-images.githubusercontent.com/99672298/190954184-33f4918c-920e-4c3c-a2ab-4013e6206fbc.png)
+![image](https://user-images.githubusercontent.com/99672298/190954195-4019d825-3784-4328-a78f-1ab964bbbb93.png)
+
 ## Mean
 ## MEdian
 ## Mode
@@ -15,22 +129,6 @@
 ## Variance
 ## Standard Daviation
 ## Skewness
-## Central Limit theorem
-## QQ- Plot
-## Normal distribution
-## Properties of Normal Distribution
-## Probability Density function
-## Feature scaling Transformations
-## log transformation
-## square- root transformation
-## reciprocal transformation
-## Box Cox Transformation
-## Yeo-johnson transformation
-## Euclidean Distance
-## Manhattan distance
-## Minkowski Distance
-## Covariance
-## Correlation
 
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
@@ -40,9 +138,23 @@
 Kurtosis is a measure of the tailedness of a distribution. Tailedness is how often outliers occur. Excess kurtosis is the tailedness of a distribution relative to a normal distribution.
 Like skewness, kurtosis is a statistical measure that is used to describe distribution. Whereas skewness differentiates extreme values in one versus the other tail, kurtosis measures extreme values in either tail. Distributions with large kurtosis exhibit tail data exceeding the tails of the normal distribution (e.g., five or more standard deviations from the mean). Distributions with low kurtosis exhibit tail data that are generally less extreme than the tails of the normal distribution.
 
+In other words, Kurtosis is a statistical measure that defines how heavily the tails of a distribution differ from the tails of a normal distribution. In other words, kurtosis identifies whether the tails of a given distribution contain extreme values.
+
+Along with skewness, kurtosis is an important descriptive statistic of data distribution. However, the two concepts must not be confused with each other. Skewness essentially measures the symmetry of the distribution, while kurtosis determines the heaviness of the distribution tails.
+
+In finance, kurtosis is used as a measure of financial risk. A large kurtosis is associated with a high risk for an investment because it indicates high probabilities of extremely large and extremely small returns. On the other hand, a small kurtosis signals a moderate level of risk because the probabilities of extreme returns are relatively low.
 For investors, high kurtosis of the return distribution implies the investor will experience occasional extreme returns (either positive or negative), more extreme than the usual + or - three standard deviations from the mean that is predicted by the normal distribution of returns. This phenomenon is known as kurtosis risk.
 
+![image](https://user-images.githubusercontent.com/99672298/190942840-f4da242f-3086-4665-8bf9-70d3300d49ff.png)
+![image](https://user-images.githubusercontent.com/99672298/190942616-ac87fa40-c453-4805-9a5d-c4965953979b.png)
 ![image](https://user-images.githubusercontent.com/99672298/190677717-f516eb9b-caed-4d49-95c4-60f6ea71290c.png)
+
+### What is Excess Kurtosis?
+Excess kurtosis is a metric that compares the kurtosis of a distribution against the kurtosis of a normal distribution. The kurtosis of a normal distribution equals 3. Therefore, the excess kurtosis is found using the formula below:
+
+Excess Kurtosis = Kurtosis – 3
+
+![image](https://user-images.githubusercontent.com/99672298/190942974-04437c8d-cd2b-41e9-adf0-b648a6b86c19.png)
 
 Distributions with medium kurtosis (medium tails) are mesokurtic.
 Distributions with low kurtosis (thin tails) are platykurtic.
@@ -65,8 +177,12 @@ From the graph, we can see that the frequency distribution (shown by the gray ba
 The zoologist calculates the kurtosis of the sample. She finds that the kurtosis is 3.09 and the excess kurtosis is 0.09, and she concludes that the distribution is mesokurtic.
 
 ![image](https://user-images.githubusercontent.com/99672298/190673209-a780b0f0-f8c4-4988-a69c-0b202716988b.png)
-![image](https://user-images.githubusercontent.com/99672298/190677433-37b49df9-0423-44cd-b809-77456ecdd5fe.png)
-![image](https://user-images.githubusercontent.com/99672298/190677498-ad68ddd8-61f2-4373-9250-800544e91b3b.png)
+
+### Leptokurtic
+Leptokurtic indicates a positive excess kurtosis. The leptokurtic distribution shows heavy tails on either side, indicating large outliers. In finance, a leptokurtic distribution shows that the investment returns may be prone to extreme values on either side. Therefore, an investment whose returns follow a leptokurtic distribution is considered to be risky.
+
+### Platykurtic
+A platykurtic distribution shows a negative excess kurtosis. The kurtosis reveals a distribution with flat tails. The flat tails indicate the small outliers in a distribution. In the finance context, the platykurtic distribution of the investment returns is desirable for investors because there is a small probability that the investment would experience extreme returns.
 
 ## The Difference Between Standard Deviation and Average Deviation
 
@@ -249,3 +365,20 @@ So, when scale is taken as 2, then according to IQR Method any data which lies b
       = 2.7σ
       
 **When scale is taken as 1.5, then according to IQR Method any data which lies beyond 2.7σ from the mean (μ), on either side, shall be considered as outlier. And this decision range is the closest to what Gaussian Distribution tells us, i.e., 3σ. In other words, this makes the decision rule closest to what Gaussian Distribution considers for outlier detection, and this is exactly what we wanted.**
+
+## Central Limit theorem
+## QQ- Plot
+## Normal distribution
+## Properties of Normal Distribution
+## Probability Density function
+## Feature scaling Transformations
+## log transformation
+## square- root transformation
+## reciprocal transformation
+## Box Cox Transformation
+## Yeo-johnson transformation
+## Euclidean Distance
+## Manhattan distance
+## Minkowski Distance
+## Covariance
+## Correlation
