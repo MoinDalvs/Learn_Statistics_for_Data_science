@@ -376,6 +376,13 @@ The median is a quantile; the median is placed in a probability distribution so 
 
 Quartiles are also quantiles; they divide the distribution into four equal parts. Percentiles are quantiles that divide a distribution into 100 equal parts and deciles are quantiles that divide a distribution into 10 equal parts
 
+## Boxplot 
+
+![26 02 2022_15 16 46_REC](https://user-images.githubusercontent.com/99672298/190982234-fd5a78fe-76e7-437c-bb31-8fcc2260bdb4.png)
+![26 02 2022_15 15 12_REC](https://user-images.githubusercontent.com/99672298/190982264-09bf95b5-c1f8-49f1-ac66-e5e6d568dbe8.png)
+![xBoxPlotandNormalDistribution JPG pagespeed ic 84HerCY3C7](https://user-images.githubusercontent.com/99672298/190981362-928d074f-e27c-4950-a21b-0172c862150e.jpg)
+![xBoxPlot jpg pagespeed ic OUUzjm6fGL](https://user-images.githubusercontent.com/99672298/190981414-aa3df22c-2498-44d3-942c-8215bc2125b2.jpg)
+
 ## “Why 1.5 times IQR? Why not 1 or 2 or any other number?”
 
 In the most general sense, an outlier is a data point which differs significantly from other observations.
@@ -429,6 +436,7 @@ There are certain observations which could be inferred from this figure:
 + About 99.72% of the whole data lies within three standard deviations (<3σ) of the mean (μ), taking both sides into account, the pink+blue+green region in the figure.
 + And the rest 0.28% of the whole data lies outside three standard deviations (>3σ) of the mean (μ), taking both sides into account, the little red region in the figure. And this part of the data is considered as outliers.
 + The first and the third quartiles, Q1 and Q3, lies at -0.675σ and +0.675σ from the mean, respectively.
+
 
 ### Let’s calculate the IQR decision range in terms of σ
 #### Taking scale = 1:
@@ -534,13 +542,6 @@ n > 10(k4), where K4 is the sample Kurtosis.
 ## Properties of Normal Distribution
 
 ![16 09 2022_19 52 31_REC](https://user-images.githubusercontent.com/99672298/190980913-dc1a9cf4-9469-4ae7-83fe-15f0f366f263.png)
-
-## Boxplot 
-
-![26 02 2022_15 16 46_REC](https://user-images.githubusercontent.com/99672298/190982234-fd5a78fe-76e7-437c-bb31-8fcc2260bdb4.png)
-![26 02 2022_15 15 12_REC](https://user-images.githubusercontent.com/99672298/190982264-09bf95b5-c1f8-49f1-ac66-e5e6d568dbe8.png)
-![xBoxPlotandNormalDistribution JPG pagespeed ic 84HerCY3C7](https://user-images.githubusercontent.com/99672298/190981362-928d074f-e27c-4950-a21b-0172c862150e.jpg)
-![xBoxPlot jpg pagespeed ic OUUzjm6fGL](https://user-images.githubusercontent.com/99672298/190981414-aa3df22c-2498-44d3-942c-8215bc2125b2.jpg)
 
 ## Outliers
 
