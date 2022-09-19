@@ -508,6 +508,42 @@ n > 10(k3)2, where k3 is the sample skewness.
 
 n > 10(k4), where K4 is the sample Kurtosis.
 
+### What Is the Central Limit Theorem (CLT)?
+In probability theory, the central limit theorem (CLT) states that the distribution of a sample variable approximates a normal distribution (i.e., a “bell curve”) as the sample size becomes larger, assuming that all samples are identical in size, and regardless of the population's actual distribution shape.
+
+Put another way, CLT is a statistical premise that, given a sufficiently large sample size from a population with a finite level of variance, the mean of all sampled variables from the same population will be approximately equal to the mean of the whole population. Furthermore, these samples approximate a normal distribution, with their variances being approximately equal to the variance of the population as the sample size gets larger, according to the law of large numbers.
+
+![image](https://user-images.githubusercontent.com/99672298/191051450-ea159eb3-9b6d-45e3-abe5-64a65e370cf1.png)
+
+### Understanding the Central Limit Theorem (CLT)
+According to the central limit theorem, the mean of a sample of data will be closer to the mean of the overall population in question, as the sample size increases, notwithstanding the actual distribution of the data. In other words, the data is accurate whether the distribution is normal or aberrant.
+
+As a general rule, sample sizes of around 30-50 are deemed sufficient for the CLT to hold, meaning that the distribution of the sample means is fairly normally distributed. Therefore, the more samples one takes, the more the graphed results take the shape of a normal distribution. Note, however, that the central limit theorem will still be approximated in many cases for much smaller sample sizes, such as n=8 or n=5.
+3
+
+The central limit theorem is often used in conjunction with the law of large numbers, which states that the average of the sample means and standard deviations will come closer to equaling the population mean and standard deviation as the sample size grows, which is extremely useful in accurately predicting the characteristics of populations.
+
++ Sampling is random. All samples must be selected at random so that they have the same statistical possibility of being selected.
++ Samples should be independent. The selections or results from one sample should have no bearing on future samples or other sample results.
++ Samples should be limited. It's often cited that a sample should be no more than 10% of a population if sampling is done without replacement. In general, larger population sizes warrant the use of larger sample sizes.
++ Sample size is increasing. The central limit theorem is relevant as more samples are selected.
+
+### The Central Limit Theorem in Finance
+The CLT is useful when examining the returns of an individual stock or broader indices, because the analysis is simple, due to the relative ease of generating the necessary financial data. Consequently, investors of all types rely on the CLT to analyze stock returns, construct portfolios, and manage risk.
+
+Say, for example, an investor wishes to analyze the overall return for a stock index that comprises 1,000 equities. In this scenario, that investor may simply study a random sample of stocks to cultivate estimated returns of the total index. To be safe, at least 30-50 randomly selected stocks across various sectors should be sampled for the central limit theorem to hold. Furthermore, previously selected stocks must be swapped out with different names to help eliminate bias.
+
+### Why Is the Central Limit Theorem Useful?
+The central limit theorem is useful when analyzing large data sets because it allows one to assume that the sampling distribution of the mean will be normally-distributed in most cases. This allows for easier statistical analysis and inference. For example, investors can use central limit theorem to aggregate individual security performance data and generate distribution of sample means that represent a larger population distribution for security returns over a period of time.
+
+### Why Is the Central Limit Theorem's Minimize Sample Size 30?
+A sample size of 30 is fairly common across statistics. A sample size of 30 often increases the confidence interval of your population data set enough to warrant assertions against your findings.
+4
+ The higher your sample size, the more likely the sample will be representative of your population set.
+
+### What Is the Formula for Central Limit Theorem?
+The central limit theorem doesn't have its own formula, but it relies on sample mean and standard deviation. As sample means are gathered from the population, standard deviation is used to distribute the data across a probability distribution curve.
+
 ## Sampling techniques
 
 ![maxresdefault](https://user-images.githubusercontent.com/99672298/190982038-48814cf2-36b0-4c0c-ba3d-5e482215b5ab.jpg)
