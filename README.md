@@ -588,7 +588,14 @@ A sampling frame is a list of things that you draw a sample from. A sample space
 ![13 09 2022_15 00 15_REC](https://user-images.githubusercontent.com/99672298/190981696-9dc82d2b-d7d0-43ce-884c-d22c4863798a.png)
 ![image](https://user-images.githubusercontent.com/99672298/191262199-5bb42117-2772-495d-a283-ac9b770b6de4.png)
 
-###Sample Design
+### What Is a Sampling Distribution?
+A sampling distribution is a probability distribution of a statistic obtained from a larger number of samples drawn from a specific population. The sampling distribution of a given population is the distribution of frequencies of a range of different outcomes that could possibly occur for a statistic of a population.
+
+In statistics, a population is the entire pool from which a statistical sample is drawn. A population may refer to an entire group of people, objects, events, hospital visits, or measurements. A population can thus be said to be an aggregate observation of subjects grouped together by a common feature.
+
+![image](https://user-images.githubusercontent.com/99672298/191296487-c9d57a75-a1cb-48c0-bb1e-f4a0aa07204c.png)
+
+### Sample Design
 
 In sample studies, we have to make a plan regarding the size of the sample, selection of the sample, collection of the sample data and preparation of the final results based on the sample study. The whole procedure involved is called the sample design. The term sample survey is used for a detailed study of the sample. In general, the term sample survey is used for any study conducted on the sample taken from some real world data.
 
