@@ -5,6 +5,7 @@
 ![30 03 2022_15 52 32_REC](https://user-images.githubusercontent.com/99672298/190672197-76e232bd-1202-408c-a7b0-1bde68671d38.png)
 ![30 03 2022_15 53 01_REC](https://user-images.githubusercontent.com/99672298/190672213-c2e51ed4-1840-4fa5-b51e-6a4916968f4f.png)
 
+____
 ## Statistics and its types
 
 Statistics is broadly categorized into two types:
@@ -163,6 +164,7 @@ With the option of true zero, varied inferential, and descriptive analysis techn
 ![image](https://user-images.githubusercontent.com/99672298/190954195-4019d825-3784-4328-a78f-1ab964bbbb93.png)
 ![image](https://user-images.githubusercontent.com/99672298/190954635-62b632cc-ef5d-4195-9760-8a4c1ffb5a4d.png)
 
+____
 ## Moments of Business Decision
 
 We have four moments of business decision that help us understand the data.
@@ -173,16 +175,19 @@ We have four moments of business decision that help us understand the data.
 
 Talks about the centrality of the data. To keep it simple, it is a part of descriptive statistical analysis where a single value at the centre represents the entire dataset.
 
+____
 ## Mean
 
 It is the sum of all the data points divided by the total number of values in the data set. Mean cannot always be relied upon because it is influenced by outliers.
 
+____
 ## MEdian
 
 It is the middlemost value of a sorted/ordered dataset. If the size of the dataset is even, then the median is calculated by taking the average of the two middle values. In case of outliers Mean cannot be relied upon as much as median. A Median will have better representation of information when an outliers are present.
 
 ![15 09 2022_21 39 39_REC](https://user-images.githubusercontent.com/99672298/190981525-b87b46fc-3690-4822-a21e-a32f4bc90730.png)
 
+____
 ## Mode
 
 It is the most repeated value in the dataset. Data with a single mode is called unimodal, data with two modes is called bimodal, and data with more than two modes is called multimodal.
@@ -218,6 +223,7 @@ When thinking about the cause of the multimodality, you may want to take a close
 
 Mean will tell the Average and in some sense it will give ust the central tendecy of the data. Median will give the middle most value of the data and in both case they are telling us central tendecy (centre of the data). In case of outliers mean cannot be trusted as much as median. A median will have better representation of information when as outliers are present and if the mean is greater than median the distribution is right skewed and if the mean is lesser than median the distribution is right skewed.
 
+____
 ## The Difference Between Standard Deviation and Average Deviation
 
 ### Standard Deviation Versus Average Deviation
@@ -255,17 +261,19 @@ The mean average, or mean absolute deviation, is considered the closest alternat
 
 According to mathematicians, when a data set is of normal distribution—that is, there aren't many outliers—standard deviation is generally the preferable gauge of variability. But when there are large outliers, standard deviation registers higher levels of dispersion (or deviation from the center) than mean absolute deviation.
 
-
+____
 ## Variance: It is the average squared distance of all the data points from their mean. The problem with Variance is, the units will also get squared.
 
 ![07 05 2022_13 13 53_REC](https://user-images.githubusercontent.com/99672298/190963012-a972ef22-0200-44d2-a4f3-8faa5efa176e.png)
 
+____
 ## Standard Deviation: It is the square root of Variance. Helps in retrieving the original units.
 
 ## Range: It is the difference between the maximum and the minimum values of a dataset.
 
 ![15 09 2022_22 06 15_REC](https://user-images.githubusercontent.com/99672298/190981467-9fbdb171-665c-46bc-9bf2-62dc9b94459f.png)
 
+____
 ## Skewness
 
 ![16 09 2022_19 29 02_REC](https://user-images.githubusercontent.com/99672298/190981085-24b6ee9a-e72a-4920-98bc-582ac2651fcb.png)
@@ -284,6 +292,7 @@ Negative/left-skewed: Data is said to be negatively skewed if most of the data i
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
 ![26 02 2022_15 13 10_REC](https://user-images.githubusercontent.com/99672298/190962548-87f13d54-87b7-4edf-8c4e-d65a0e913657.png)
 
+____
 ## Kurtosis
 
 Kurtosis is a measure of the tailedness of a distribution. Tailedness is how often outliers occur. Excess kurtosis is the tailedness of a distribution relative to a normal distribution.
@@ -335,6 +344,7 @@ Leptokurtic indicates a positive excess kurtosis. The leptokurtic distribution s
 ### Platykurtic
 A platykurtic distribution shows a negative excess kurtosis. The kurtosis reveals a distribution with flat tails. The flat tails indicate the small outliers in a distribution. In the finance context, the platykurtic distribution of the investment returns is desirable for investors because there is a small probability that the investment would experience extreme returns.
 
+____
 ## Percentile vs. Quartile vs. Quantile: What’s the Difference?
 
 Three terms that students often confuse in statistics are percentiles, quartiles, and quantiles.
@@ -376,6 +386,7 @@ The median is a quantile; the median is placed in a probability distribution so 
 
 Quartiles are also quantiles; they divide the distribution into four equal parts. Percentiles are quantiles that divide a distribution into 100 equal parts and deciles are quantiles that divide a distribution into 10 equal parts
 
+____
 ## Boxplot 
 
 ![26 02 2022_15 16 46_REC](https://user-images.githubusercontent.com/99672298/190982234-fd5a78fe-76e7-437c-bb31-8fcc2260bdb4.png)
@@ -383,13 +394,14 @@ Quartiles are also quantiles; they divide the distribution into four equal parts
 ![xBoxPlotandNormalDistribution JPG pagespeed ic 84HerCY3C7](https://user-images.githubusercontent.com/99672298/190981362-928d074f-e27c-4950-a21b-0172c862150e.jpg)
 ![xBoxPlot jpg pagespeed ic OUUzjm6fGL](https://user-images.githubusercontent.com/99672298/190981414-aa3df22c-2498-44d3-942c-8215bc2125b2.jpg)
 
+____
 ## “Why 1.5 times IQR? Why not 1 or 2 or any other number?”
 
 In the most general sense, an outlier is a data point which differs significantly from other observations.
 ### IQR Method of Outlier Detection
 To explain IQR Method easily, let’s start with a box plot.
 
-![image](https://user-images.githubusercontent.com/99672298/190669815-0ba7ed2e-9282-47c4-98bf-84c0600d0753.png)
+![image](https://user-images.githubusercontent.com/99672298/191162733-725f6cf2-7ef2-4eec-b5c0-d21564869c90.png)
 
 A box plot tells us, more or less, about the distribution of the data. It gives a sense of how much the data is actually spread about, what’s its range, and about its skewness. As you might have noticed in the figure, that a box plot enables us to draw inference from it for an ordered data, i.e., it tells us about the various metrics of a data arranged in ascending order.
 
@@ -490,6 +502,7 @@ So, when scale is taken as 2, then according to IQR Method any data which lies b
       
 **When scale is taken as 1.5, then according to IQR Method any data which lies beyond 2.7σ from the mean (μ), on either side, shall be considered as outlier. And this decision range is the closest to what Gaussian Distribution tells us, i.e., 3σ. In other words, this makes the decision rule closest to what Gaussian Distribution considers for outlier detection, and this is exactly what we wanted.**
 
+____
 ## Central Limit Theorem
 
 Instead of analyzing entire population data, we always take out a sample for analysis. The problem with sampling is that “sample means is a random variable – varies for different samples”. And random sample we draw can never be an exact representation of the population. This phenomenon is called sample variation.
@@ -544,6 +557,7 @@ A sample size of 30 is fairly common across statistics. A sample size of 30 ofte
 ### What Is the Formula for Central Limit Theorem?
 The central limit theorem doesn't have its own formula, but it relies on sample mean and standard deviation. As sample means are gathered from the population, standard deviation is used to distribute the data across a probability distribution curve.
 
+____
 ## Sampling techniques
 
 ![maxresdefault](https://user-images.githubusercontent.com/99672298/190982038-48814cf2-36b0-4c0c-ba3d-5e482215b5ab.jpg)
@@ -563,11 +577,13 @@ The central limit theorem doesn't have its own formula, but it relies on sample 
 
 ![TC_606106-heterogeneous-and-homogeneous-mixtures1-5ac4f1a9642dca0036847e52](https://user-images.githubusercontent.com/99672298/190981958-c427f4bc-ced1-4f25-a483-581fed6fe83c.png)
 
+____
 ## Sampling Error
 
 ![14 09 2022_15 26 06_REC](https://user-images.githubusercontent.com/99672298/190981654-40f11b96-e4e7-458e-95bc-bc0cd55ec263.png)
 ![14 09 2022_13 01 17_REC](https://user-images.githubusercontent.com/99672298/190981679-575129e1-463f-4707-8be4-d51fd1369780.png)
 
+____
 ## Normal distribution
 
 ![16 09 2022_16 31 55_REC](https://user-images.githubusercontent.com/99672298/190981214-f7ef6fda-825d-43e1-9e8c-70c5d2f5fa0f.png)
@@ -575,33 +591,57 @@ The central limit theorem doesn't have its own formula, but it relies on sample 
 ![16 09 2022_18 55 14_REC](https://user-images.githubusercontent.com/99672298/190981186-296b8ac1-1fb8-4d19-8d75-fe04120328ae.png)
 ![common-distribution_huec055ab3bd48482f92384431f8f73d3e_75898_900x500_fit_box_2](https://user-images.githubusercontent.com/99672298/190981750-bf877d2f-816a-49bc-bc43-371d54b9ec40.png)
 
-## Properties of Normal Distribution
+____
+### Properties of Normal Distribution
 
 ![16 09 2022_19 52 31_REC](https://user-images.githubusercontent.com/99672298/190980913-dc1a9cf4-9469-4ae7-83fe-15f0f366f263.png)
 
-## Outliers
+____
+### Outliers
 
 ![24 03 2022_11 04 54_REC](https://user-images.githubusercontent.com/99672298/190962879-0b5cda86-cd05-4638-8be0-9ee64f732117.png)
 
-## QQ- Plot
+____
+### QQ- Plot
 
-## Probability Density function
-## Feature scaling Transformations
-## log transformation
-## square- root transformation
-## reciprocal transformation
-## Box Cox Transformation
-## Yeo-johnson transformation
-## Euclidean Distance
-## Manhattan distance
-## Minkowski Distance
-## Covariance
+____
+### Probability Density function
+
+____
+### Feature scaling Transformations
+
+____
+### log transformation
+
+____
+### square- root transformation
+
+____
+### reciprocal transformation
+
+____
+### Box Cox Transformation
+
+____
+### Yeo-johnson transformation
+
+____
+### Euclidean Distance
+
+____
+### Manhattan distance
+
+____
+### Minkowski Distance
+
+____
+### Covariance
 
 ![07 05 2022_13 13 53_REC](https://user-images.githubusercontent.com/99672298/190981837-3684c83b-3a03-494a-b1e2-c4cec3dbd611.png)
 ![04 05 2022_20 05 57_REC](https://user-images.githubusercontent.com/99672298/190981878-f7ef77f3-6ea8-49b1-97c9-909c5baf0ada.png)
 ![Covariance-Formula](https://user-images.githubusercontent.com/99672298/190981973-c91ce53d-c933-48e7-bab1-8ef22905c33f.jpg)
 
 
-## Correlation
+### Correlation
 
 ![31 03 2022_12 27 48_REC](https://user-images.githubusercontent.com/99672298/190981901-f8fd0acf-458d-47d1-ba48-ebcaef9abf37.png)
