@@ -562,7 +562,39 @@ ____
 
 ![maxresdefault](https://user-images.githubusercontent.com/99672298/190982038-48814cf2-36b0-4c0c-ba3d-5e482215b5ab.jpg)
 ![sampling-frame-l](https://user-images.githubusercontent.com/99672298/190982014-bf195c6b-bf2e-4e80-8984-ab791c30488c.jpg)
+
+### Sampling Frame
+
+A complete list of all the units in a population is called the sampling frame. A unit of population is a relative term. If all the workers in a factory make up a population, a single worker is a unit of the population. If all the factories in a country are being studied for some purpose, a single factory is a unit of the population of factories. The sampling frame contains all the units of the population. The units which are to be included in the frame must be clearly defined. The frame provides a base for the selection of the sample.
+
+A sampling frame is a list of all the items in your population. It’s a complete list of everyone or everything you want to study. The difference between a population and a sampling frame is that the population is general and the frame is specific. For example, the population could be “People who live in Jacksonville, Florida.” The frame would name all of those people, from Adrian Abba to Felicity Zappa. A couple more examples:
+
++ **Population:** People in STAT101.
++ **Sampling Frame:** Adrian, Anna, Bob, Billy, Howie, Jess, Jin, Kate, Kaley, Lin, Manuel, Norah, Paul, Roger, Stu, Tim, Vanessa, Yasmin.
+
++ **Population:** Birds that are pink.
++ **Sampling Frame:**
+
++ Brown-capped Rosy-Finch.
++ White-winged Crossbill.
++ American Flamingo.
++ Roseate Spoonbill.
++ Black Rosy-Finch.
++ Cassin’s Finch.
+
+### Sampling Frame vs. Sample Space
+A sampling frame is a list of things that you draw a sample from. A sample space is a list of all possible outcomes for an experiment. For example, you might have a sampling frame of names of people in a certain town for a survey you’re going to be conducting on family size. The sample space is all possible outcomes from your survey: 1 person, 2 people, 3 people…10 or more.
+
 ![13 09 2022_15 00 15_REC](https://user-images.githubusercontent.com/99672298/190981696-9dc82d2b-d7d0-43ce-884c-d22c4863798a.png)
+![image](https://user-images.githubusercontent.com/99672298/191262199-5bb42117-2772-495d-a283-ac9b770b6de4.png)
+
+###Sample Design
+
+In sample studies, we have to make a plan regarding the size of the sample, selection of the sample, collection of the sample data and preparation of the final results based on the sample study. The whole procedure involved is called the sample design. The term sample survey is used for a detailed study of the sample. In general, the term sample survey is used for any study conducted on the sample taken from some real world data.
+
+### Understanding Sampling Distribution
+A lot of data drawn and used by academicians, statisticians, researchers, marketers, analysts, etc. are actually samples, not populations. A sample is a subset of a population. For example, a medical researcher that wanted to compare the average weight of all babies born in North America from 1995 to 2005 to those born in South America within the same time period cannot draw the data for the entire population of over a million childbirths that occurred over the ten-year time frame within a reasonable amount of time. They will instead only use the weight of, say, 100 babies, in each continent to make a conclusion. The weight of 100 babies used is the sample and the average weight calculated is the sample mean.
+
 ![12 09 2022_20 35 15_REC](https://user-images.githubusercontent.com/99672298/190981714-719a460c-f90f-4569-ac11-17e17768276d.png)
 ![26 02 2022_13 24 51_REC](https://user-images.githubusercontent.com/99672298/190982694-60e2e38a-d455-4b9f-a901-06ce57ff0bb6.png)
 ![26 02 2022_13 25 16_REC](https://user-images.githubusercontent.com/99672298/190982664-fce582ac-42dd-45ec-9ce2-258dfd43ba4e.png)
