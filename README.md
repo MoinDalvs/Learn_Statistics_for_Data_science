@@ -603,36 +603,16 @@ ____
 
 ____
 ### QQ- Plot
+A Normal Q-Q plot is a kind of scatter plot that is plotted by creating two sets of quantiles. It is used to check if the data is following normality or not.
 
+![image](https://user-images.githubusercontent.com/99672298/191167218-be64fb1e-8afe-447c-b8eb-3217076a8181.png)
+
+On the x-axis, we have the Z-scores and on the y-axis, we have the actual sample quantiles. If the scatter plot forms a straight line, data is said to be normal.
 ____
 ### Probability Density function
 
 ____
-### Feature scaling Transformations
-
-____
-### log transformation
-
-____
-### square- root transformation
-
-____
-### reciprocal transformation
-
-____
-### Box Cox Transformation
-
-____
-### Yeo-johnson transformation
-
-____
-### Euclidean Distance
-
-____
-### Manhattan distance
-
-____
-### Minkowski Distance
+### Imputation
 
 ____
 ### Covariance
