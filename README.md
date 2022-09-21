@@ -790,8 +790,87 @@ ____
 ![04 05 2022_20 05 57_REC](https://user-images.githubusercontent.com/99672298/190981878-f7ef77f3-6ea8-49b1-97c9-909c5baf0ada.png)
 ![Covariance-Formula](https://user-images.githubusercontent.com/99672298/190981973-c91ce53d-c933-48e7-bab1-8ef22905c33f.jpg)
 
-
+___
 ### Correlation
+
+Correlation coefficients take the values between minus one and plus one.  The positive correlation signifies that the ranks of both the variables are increasing.  On the other hand, the negative correlation signifies that as the rank of one variable is increased, the rank of the other variable is decreased.
+
+Correlation analyses can be used to test for associations in hypothesis testing.  The null hypothesis is that there is no association between the variables under study.  Thus, the purpose is to investigate the possible association in the underlying variables.  It would be incorrect to write the null hypothesis as having no rank correlation between the variables.
+
+A Pearson correlation is used when assessing the relationship between two continuous variables. The non-parametric equivalent to the Pearson correlation is the Spearman correlation (ρ), and is appropriate when at least one of the variables is measured on an ordinal scale.
+
+Inferential statistical procedures generally fall into two possible categorizations: parametric and non-parametric. Depending on the level of the data you plan to examine (e.g., nominal, ordinal, continuous), a particular statistical approach should be followed. Parametric tests rely on the assumption that the data you are testing resembles a particular distribution (often a normal or “bell-shaped” distribution). Non-parametric tests are frequently referred to as distribution-free tests because there are not strict assumptions to check in regards to the distribution of the data.
+
+As a general rule of thumb, when the dependent variable’s level of measurement is nominal (categorical) or ordinal, then a non-parametric test should be selected. When the dependent variable is measured on a continuous scale, then a parametric test should typically be selected.  Fortunately, the most frequently used parametric analyses have non-parametric counterparts.  This can be useful when the assumptions of a parametric test are violated because you can choose the non-parametric alternative as a backup analysis.
+
+Kendall's rank correlation provides a distribution free test of independence and a measure of the strength of dependence between two variables.
+
+Spearman's rank correlation is satisfactory for testing a null hypothesis of independence between two variables but it is difficult to interpret when the null hypothesis is rejected. Kendall's rank correlation improves upon this by reflecting the strength of the dependence between the variables being compared.
+
+#### Kendall’s Tau and Spearman’s Rank Correlation Coefficient
+There are two accepted measures of non-parametric rank correlations: Kendall’s tau and Spearman’s (rho) rank correlation coefficient.
+
+Correlation analyses measure the strength of the relationship between two variables.
+
+Kendall’s Tau and Spearman’s rank correlation coefficient  assess statistical associations based on the ranks of the data.  Ranking data is carried out on the variables that are separately put in order and are numbered.
+
+Kendall’s Tau: usually smaller values than Spearman’s rho correlation. Calculations based on concordant and discordant pairs. Insensitive to error. P values are more accurate with smaller sample sizes.
+
+Spearman’s rho: usually have larger values than Kendall’s Tau.  Calculations based on deviations.  Much more sensitive to error and discrepancies in data.
+
+The main advantages of using Kendall’s tau are as follows:
+
+The distribution of Kendall’s tau has better statistical properties.
+The interpretation of Kendall’s tau in terms of the probabilities of observing the agreeable (concordant) and non-agreeable (discordant) pairs is very direct.
+In most of the situations, the interpretations of Kendall’s tau and Spearman’s rank correlation coefficient are very similar and thus invariably lead to the same inferences.
+
+#### What is Kendall’s Tau?
+Kendall’s Tau is a non-parametric measure of relationships between columns of ranked data. The Tau correlation coefficient returns a value of 0 to 1, where:
+
+0 is no relationship,
+1 is a perfect relationship.
+A quirk of this test is that it can also produce negative values (i.e. from -1 to 0). Unlike a linear graph, a negative relationship doesn’t mean much with ranked columns (other than you perhaps switched the columns around), so just remove the negative sign when you’re interpreting Tau.
+
+Several version’s of Tau exist.
+
+Tau-A and Tau-B are usually used for square tables (with equal columns and rows). Tau-B will adjust for tied ranks.
+Tau-C is usually used for rectangular tables. For square tables, Tau-B and Tau-C are essentially the same.
+Most statistical packages have Tau-B built in, but you can use the following formula to calculate it by hand:
+
+Kendall’s Tau = (C – D / C + D)
+Where C is the number of concordant pairs and D is the number of discordant pairs.
+
+Example Problem
+Sample Question: Two interviewers ranked 12 candidates (A through L) for a position. The results from most preferred to least preferred are:
+
+Interviewer 1: ABCDEFGHIJKL.
+Interviewer 2: ABDCFEHGJILK.
+Calculate the Kendall Tau correlation.
+
+Step 1: Make a table of rankings. The first column, “Candidate” is optional and for reference only. The rankings for Interviewer 1 should be in ascending order (from least to greatest).
+
+![image](https://user-images.githubusercontent.com/99672298/191536745-9f751406-a683-4104-8102-79904f63cc34.png)
+![image](https://user-images.githubusercontent.com/99672298/191536859-c7adba85-035b-41b3-b1f1-95e069fe8eae.png)
+![image](https://user-images.githubusercontent.com/99672298/191536997-dae41f6b-fcba-4c92-9bca-aedd0d3adba5.png)
+
+
+#### Spearman’s rank correlation coefficient is the more widely used rank correlation coefficient.
+
+Symbolically, Spearman’s rank correlation coefficient is denoted by rs . It is given by the following formula:
+
+rs = 1- (6∑di2 )/ (n (n2-1))
+
+*Here di represents the difference in the ranks given to the values of the variable for each item of the particular data
+
+This formula is applied in cases when there are no tied ranks.  However, in the case of fewer numbers of tied ranks, this approximation of Spearman’s rank correlation coefficient provides sufficiently good approximations.
+
++ **Key terms:**
+
+**Non-parametric test:** it does not depend upon the assumptions of various underlying distributions; this means that it is distribution free.
+
+**Concordant pairs:** if both members of one observation are larger than their respective members of the other observations
+
+**Discordant pairs:** if the two numbers in one observation differ in opposite directions
 
 #### Spearman's Rank-Order Correlation
 This guide will tell you when you should use Spearman's rank-order correlation to analyse your data, what assumptions you have to satisfy, how to calculate it, and how to report it. If you want to know how to run a Spearman correlation in SPSS Statistics, go to our Spearman's correlation in SPSS Statistics guide.
