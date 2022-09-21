@@ -740,8 +740,85 @@ ____
 ____
 ### Outliers
 
+#### 1. What are Outliers? 🤔
+We all have heard of the idiom ‘odd one out which means something unusual in comparison to the others in a group.
+
+Similarly, an Outlier is an observation in a given dataset that lies far from the rest of the observations. That means an outlier is vastly larger or smaller than the remaining values in the set.
+
+#### 2. Why do they occur?
+An outlier may occur due to the variability in the data, or due to experimental error/human error.
+
+They may indicate an experimental error or heavy skewness in the data(heavy-tailed distribution).
+
+#### 3. What do they affect?
+In statistics, we have three measures of central tendency namely Mean, Median, and Mode. They help us describe the data.
+
+Mean is the accurate measure to describe the data when we do not have any outliers present.
+
+Median is used if there is an outlier in the dataset.
+
+Mode is used if there is an outlier AND about ½ or more of the data is the same.
+
+‘Mean’ is the only measure of central tendency that is affected by the outliers which in turn impacts Standard deviation.
+
+#### 4. Detecting Outliers
+If our dataset is small, we can detect the outlier by just looking at the dataset. But what if we have a huge dataset, how do we identify the outliers then? We need to use visualization and mathematical techniques.
+
+Below are some of the techniques of detecting outliers
+
+Boxplots
+Z-score
+Inter Quantile Range(IQR)
+
 ![24 03 2022_11 04 54_REC](https://user-images.githubusercontent.com/99672298/190962879-0b5cda86-cd05-4638-8be0-9ee64f732117.png)
 
+#### Detecting outliers using the Z-scores
+Criteria: any data point whose Z-score falls out of 3rd standard deviation is an outlier.
+
+![image](https://user-images.githubusercontent.com/99672298/191570868-7c0d6af8-47bc-4abb-96f5-9ab7f12fd4e3.png)
+
++ Steps:
+loop through all the data points and compute the Z-score using the formula (Xi-mean)/std.
+define a threshold value of 3 and mark the datapoints whose absolute value of Z-score is greater than the threshold as outliers.
+
+        import numpy as np
+        outliers = []
+        def detect_outliers_zscore(data):
+            thres = 3
+            mean = np.mean(data)
+            std = np.std(data)
+            # print(mean, std)
+            for i in data:
+                z_score = (i-mean)/std
+                if (np.abs(z_score) > thres):
+                    outliers.append(i)
+            return outliers# Driver code
+        sample_outliers = detect_outliers_zscore(sample)
+        print("Outliers from Z-scores method: ", sample_outliers)
+        
+**Detecting outliers using the Inter Quantile Range(IQR)**
+
+#### 5. Handling Outliers
+Till now we learned about detecting the outliers. The main question is WHAT do we do with the outliers?
+
+Below are some of the methods of treating the outliers
+
+Trimming/removing the outlier
+Quantile based flooring and capping
+Mean/Median imputation
+
+**Trimming/Remove the outliers**
+In this technique, we remove the outliers from the dataset. Although it is not a good practice to follow.
+
+**Quantile based flooring and capping**
+In this technique, the outlier is capped at a certain value above the 90th percentile value or floored at a factor below the 10th percentile value.
+
+The above code outputs: New array: [15, 20.7, 18, 7.2, 13, 16, 11, 20.7, 7.2, 15, 10, 9]
+
+The data points that are lesser than the 10th percentile are replaced with the 10th percentile value and the data points that are greater than the 90th percentile are replaced with 90th percentile value.
+
+**Mean/Median imputation**
+As the mean value is highly influenced by the outliers, it is advised to replace the outliers with the median value.
 ____
 ### QQ- Plot
 A Normal Q-Q plot is a kind of scatter plot that is plotted by creating two sets of quantiles. It is used to check if the data is following normality or not.
