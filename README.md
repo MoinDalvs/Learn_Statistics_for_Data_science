@@ -632,6 +632,25 @@ Disadvantages of simple random sampling
 ![26 02 2022_13 25 30_REC](https://user-images.githubusercontent.com/99672298/190982651-35e81bed-667f-4b1f-a83d-1ef7bb6b9dd1.png)
 ![26 02 2022_13 25 44_REC](https://user-images.githubusercontent.com/99672298/190982636-8fa83fc2-4efe-4b7b-91fe-dbf0e4b45684.png)
 
+![stratified-sampling-example-vector-illustration-diagram-research-method-explanation-scheme-person-symbols-stages-175044570](https://user-images.githubusercontent.com/99672298/190982306-e600f6a2-5761-46e3-9307-e851b201edeb.jpg)
+
+### Stratified Random Sampling
+Stratification is the process of dividing a set of sampling units into one or more subgroups (i.e., strata) prior to selection of units for sampling. Sampling units are then selected randomly within each stratum. The purpose of using stratification is to account for variability in a population that can be explained by another variable (e.g., vegetation type, aspect, soil type). Therefore, strata should be defined so that the population conditions are similar within the strata.
+
+Sampling effort does not need to be equally allocated between strata. It is common for sampling intensity to be varied between strata based on either the variability of the population parameter within the strata or the size of the strata.
+
+**Advantages of stratified random sampling**
+
++ it increases efficiency of sampling over simple random sampling when the variable of interest responds differently to some clearly definable features.
+
+**Disadvantages of stratified random sampling**
+
++ the formulas for estimating population parameters and conducting hypothesis tests are more complicated than for simple random selection.
++ each stratum should be relatively homogeneous with regard to the population parameter being measured.
+
+![StratifiedRandomSampling](https://user-images.githubusercontent.com/99672298/190982472-9f346a6d-afab-40bd-815f-7f37b5fae9be.jpg)
+![stratified-random-sampling-2-768x460](https://user-images.githubusercontent.com/99672298/190982325-d585230e-b005-4e92-bfea-09c5c04b8e76.jpg)
+
 ### Systematic Sampling
 Systematic sampling is the selection of units for sampling or the placement of sampling locations within an area according to a regularly-repeating pattern. Examples of systematic sampling are: locating sample sites on a 1km grid within a pasture, taking measurements every meter along a transect, or orienting transects along cardinal directions. Systematic techniques are commonly used to locate sub-plot sampling sites (e.g., points, transects, frames) within a sampling site where the location of the sampling site has been selected randomly. Alternatively, larger sampling units can be selected systematically and then the location of the specific sampling unit randomly selected within the larger unit (i.e., a form of two-stage sampling or restricted random sampling – see below). This technique is often used with regional- or national-scale assessment and monitoring programs like the NRCS Natural Resource Inventory (NRI) or the USFS Forest Inventory and Analysis (FIA) programs.
 
@@ -648,14 +667,55 @@ Systematic sampling is the selection of units for sampling or the placement of s
 + systematic sampling can miss or under-represent small or narrow features of a landscape if the sampling interval is too large.
 
 ![26 02 2022_13 25 59_REC](https://user-images.githubusercontent.com/99672298/190982621-15f87cde-6ecf-4f08-93fa-fafee27ab9e3.png)
-![stratified-sampling-example-vector-illustration-diagram-research-method-explanation-scheme-person-symbols-stages-175044570](https://user-images.githubusercontent.com/99672298/190982306-e600f6a2-5761-46e3-9307-e851b201edeb.jpg)
-![StratifiedRandomSampling](https://user-images.githubusercontent.com/99672298/190982472-9f346a6d-afab-40bd-815f-7f37b5fae9be.jpg)
-![stratified-random-sampling-2-768x460](https://user-images.githubusercontent.com/99672298/190982325-d585230e-b005-4e92-bfea-09c5c04b8e76.jpg)
-![stratified-cluster-sampling-l](https://user-images.githubusercontent.com/99672298/190982455-424f3441-91d1-423e-89f2-18a9af2824a5.jpg)
-![images](https://user-images.githubusercontent.com/99672298/190982464-68d994c1-b52c-48de-abc8-eff35923a708.png)
 
+### Cluster Sampling
+Cluster sampling is a technique that can be applied when it is not possible or desirable to take a random sample from the entire population. With cluster sampling, the known or accessible sampling units are grouped into clusters. A random selection of clusters is then made and each sampling unit is measured within each of the selected clusters. Cluster sampling is typically applied to monitoring of rare plants or invasive species when the objective is to estimate a property related to individual plants (e.g., mean height, number of flowers per plant).
+
+Advantages of cluster sampling are:
+
+It can be less expensive and more efficient to sample all of the sampling units within a cluster than to sample an equal number of units across the entire population.
+Cluster sampling can be an efficient choice when clusters naturally occur and when the clusters are similar to each other but have a high degree of internal variability
+Disadvantages of cluster sampling are:
+
+all elements within the selected clusters must be measured. If clusters are large or contain a large number of elements, then two-stage sampling may be more efficient.
+It can be difficult to determine how many clusters to sample versus how large the clusters should be.
+Analysis of sample data collected using a cluster analysis design is more complex than other methods.
+
+![images](https://user-images.githubusercontent.com/99672298/190982464-68d994c1-b52c-48de-abc8-eff35923a708.png)
+![stratified-cluster-sampling-l](https://user-images.githubusercontent.com/99672298/190982455-424f3441-91d1-423e-89f2-18a9af2824a5.jpg)
 ![TC_606106-heterogeneous-and-homogeneous-mixtures1-5ac4f1a9642dca0036847e52](https://user-images.githubusercontent.com/99672298/190981958-c427f4bc-ced1-4f25-a483-581fed6fe83c.png)
 
+### Two-Stage Sampling
+In two-stage sampling, elements of the population are grouped together into large groups called primary sampling units. The individual sampling units within each primary sampling unit are called secondary sampling units. A random selection of the primary sampling units is made, and then a selection of secondary sampling units is made (usually random, but can be systematic) within each of the selected primary sampling units.
+
+Two-stage sampling is a powerful sample design method for systems that are hierarchical in nature. For example, allotments within a BLM District could be considered primary sampling units. A random selection of allotments could be made and then sample sites selected within the selected allotments. This design would allow for inference at the allotment level (e.g., average allotment condition) as well as at the district level.
+
+The concept of two-stage sampling can be generalized to multi-stage sampling where there are more than two hierarchical levels for sampling. However, as the number of stages increases, sample size requirements go up and degrees of freedom for statistical hypothesis testing decrease. Accordingly, the number of stages is generally small (i.e., two or three).
+
+Advantages of two-stage sampling are:
+
+It is often more efficient to sample secondary sampling units within a limited number of primary sampling units than to sample the same number of secondary units randomly spread across a landscape.
+Inferences can be made at multiple scales (i.e., the scale of the primary sampling unit, and the entire population).
+Disadvantages of two-stage sampling are:
+
+Calculation of sample statistics is more complicated than with other simpler sample designs.
+
+### Adaptive Sampling
+Adaptive sampling refers to a technique where the sample design is modified in the field based on observations made at a set of pre-selected sampling units. Perhaps the best way to describe adaptive sampling is through an example. Consider sampling for the presence or abundance of rare plants. A random selection of sample units will yield many sample units where the plant is not detected, but the rare plant is likely to occur in sample units nearby to those units where it was detected. With adaptive sampling, the detection of the rare plant at one site triggers the selection and sampling of additional nearby sites that were not originally selected as part of the sample set. Thus the biggest difference between adaptive sampling and many other random selection techniques is that the observed conditions at one sampling unit influence the selection of other sampling units.
+
+One typical implementation of adaptive sampling is that whenever a specified event occurs (e.g., detection of a target species, measurement over a specified threshold), all of the neighboring sample units are searched/sampled. This continues until no new detections occur.
+
+Adaptive sampling introduces bias into the samples that must be corrected for. More specifically, adding additional units to the sample that contain high values for the parameter being measured will result in overestimation of the population mean (Thompson 1992). Various techniques are available for correcting for the bias introduced by adaptive sampling.
+
+Advantages of Adaptive Sampling
+
+It is an efficient method for sampling rare species or events
+It works well with populations that are naturally aggregated or clustered and does not require the exact nature of the aggregation to be known ahead of time
+Disadvantages of Adaptive Sampling
+
+Population estimates must be corrected for bias.
+Calculations for population parameter estimates and hypothesis tests are more complicated than for simpler sampling designs.
+Estimation of sample size requirements is difficult.
 ____
 ## Sampling Error
 
