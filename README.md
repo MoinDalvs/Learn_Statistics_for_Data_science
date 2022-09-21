@@ -217,8 +217,6 @@ When thinking about the cause of the multimodality, you may want to take a close
 
 ![image](https://user-images.githubusercontent.com/99672298/190957530-3009f629-cf5c-436d-94ca-a7fe104dff6a.png)
 
-<img width="620" alt="3739f8e23248b79e3002acc01005beb2" src="https://user-images.githubusercontent.com/99672298/190962957-3a75ea7f-2a4f-4b52-9db6-fb29666ce62c.png">
-
 ### Mean vs Median
 
 Mean will tell the Average and in some sense it will give ust the central tendecy of the data. Median will give the middle most value of the data and in both case they are telling us central tendecy (centre of the data). In case of outliers mean cannot be trusted as much as median. A median will have better representation of information when as outliers are present and if the mean is greater than median the distribution is right skewed and if the mean is lesser than median the distribution is right skewed.
@@ -768,3 +766,39 @@ ____
 ### Correlation
 
 ![31 03 2022_12 27 48_REC](https://user-images.githubusercontent.com/99672298/190981901-f8fd0acf-458d-47d1-ba48-ebcaef9abf37.png)
+
+## Permutation and Combination: 
+
+Permutation and combination form the principles of counting and they are applied in various situations. A permutation is a count of the different arrangements which can be made from the given set of things. In permutation the details matter, as the order or sequence is important. Writing the names of three countries {USA, Brazil, Australia} or {Australia, USA, Brazil) or { Brazil, Australia, USA} is different and this sequence in which the names of the countries are written is important. In combinations, the name of three countries is just a single group, and the sequence or order does not matter. Let us learn more about permutation and combination in the below content.
+
+What are Permutation and Combination?
+Permutation and combination are the methods employed in counting how many outcomes are possible in various situations. Permutations are understood as arrangements and combinations are understood as selections. As per the fundamental principle of counting, there are the sum rules and the product rules to employ counting easily.
+
+Suppose there are 14 boys and 9 girls. If a boy or a girl has to be selected to be the monitor of the class, the teacher can select 1 out of 14 boys or 1 out of 9 girls. She can do it in 14 + 9 = 23 ways(using the sum rule of counting). Let us look at another scenario. Suppose Sam usually takes one main course and a drink. Today he has the choice of burger, pizza, hot dog, watermelon juice, and orange juice. What are all the possible combinations that he can try? There are 3 snack choices and 2 drink choices. We multiply to find the combinations. 3 × 2 = 6. Thus Sam can try 6 combinations using the product rule of counting. This can be shown using tree diagrams as illustrated below.
+
+![image](https://user-images.githubusercontent.com/99672298/191480581-57bc71b0-8cfc-4a06-bc10-83b63b24911f.png)
+
+In order to understand permutation and combination, the concept of factorials has to be recalled. The product of the first n natural numbers is n! The number of ways of arranging n unlike objects is n!.
+
+#### Permutations
+A permutation is an arrangement in a definite order of a number of objects taken some or all at a time. Let us take 10 numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9. The number of different 4-digit-PIN which can be formed using these 10 numbers is 5040. P(10,4) = 5040. This is a simple example of permutations. The permutations of 4 numbers taken from 10 numbers equal to the factorial of 10 divided by the factorial of the difference of 10 and 4. The permutations is easily calculated using 
+
+![image](https://user-images.githubusercontent.com/99672298/191480993-3be05cf7-8380-4128-a09e-dd0c1dce7976.png)
+
+Combinations
+A combination is all about grouping. The number of different groups which can be formed from the available things can be calculated using combinations. Let us try to understand this with a simple example. A team of 2 is formed from 5 students(William, James, Noah, Logan, and Oliver). This the combination of 'r' persons from the available 'n' persons is given as ![image](https://user-images.githubusercontent.com/99672298/191481059-8084f738-c063-4279-b832-74c9595745f4.png). The combinations can happen in the following 10 ways by which the team of 2 could be formed.
+
++ William James
++ William Noah
++ William Logan
++ William Oliver
++ James Noah
++ James Logan
++ James Oliver
++ Logan Noah
++ Logan Oliver
++ Oliver Noah
++ This is a simple example of combinations. C(5,2) = 10.
+
+<img width="620" alt="3739f8e23248b79e3002acc01005beb2" src="https://user-images.githubusercontent.com/99672298/190962957-3a75ea7f-2a4f-4b52-9db6-fb29666ce62c.png">
+![image](https://user-images.githubusercontent.com/99672298/191480015-a22f7808-d8fa-47be-8ba4-483ee8bc2cbb.png)
