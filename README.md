@@ -609,7 +609,8 @@ Non-random sampling methods select locations for sampling by either: according t
 Random sampling methods rely on randomization at some point in the sample design process in an attempt to achieve statistically unbiased samples. Random sampling methods are a form of design-based inferencewhere 1): the population being measured is assumed to have fixed parameters at the time they are sampled, and 2) that a randomly-selected set of samples for the population represents one realization of all possible sample sets (i.e., the sample set is a random variable). There are many different random sampling techniques. Some of the most common techniques are described below. Unless otherwise stated, the primary source for information on these methods is Elzinga et al. (2001).
 
 ![12 09 2022_20 35 15_REC](https://user-images.githubusercontent.com/99672298/190981714-719a460c-f90f-4569-ac11-17e17768276d.png)
-
+![image](https://user-images.githubusercontent.com/99672298/191477200-10228788-7e89-4d1a-b9d4-6ed9313113c7.png)
+![image](https://user-images.githubusercontent.com/99672298/191478261-71a4e100-b629-44fd-a03f-52a14026fdca.png)
 ![26 02 2022_13 24 51_REC](https://user-images.githubusercontent.com/99672298/190982694-60e2e38a-d455-4b9f-a901-06ce57ff0bb6.png)
 
 ### Simple Random Sampling
@@ -638,6 +639,9 @@ Disadvantages of simple random sampling
 Stratification is the process of dividing a set of sampling units into one or more subgroups (i.e., strata) prior to selection of units for sampling. Sampling units are then selected randomly within each stratum. The purpose of using stratification is to account for variability in a population that can be explained by another variable (e.g., vegetation type, aspect, soil type). Therefore, strata should be defined so that the population conditions are similar within the strata.
 
 Sampling effort does not need to be equally allocated between strata. It is common for sampling intensity to be varied between strata based on either the variability of the population parameter within the strata or the size of the strata.
+
+A stratified sample is a mini-reproduction of the population. Before sampling, the population is divided into characteristics of importance for the research. For example, by gender, social class, education level, religion, etc. Then the population is randomly sampled within each category or stratum. If 38% of the population is college-educated, then 38% of the sample is randomly selected from the college-educated population. Stratified samples are as good as or better than random samples, but they require fairly detailed advance knowledge of the
+population characteristics, and therefore are more difficult to construct.
 
 **Advantages of stratified random sampling**
 
