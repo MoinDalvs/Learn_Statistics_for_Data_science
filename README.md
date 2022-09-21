@@ -602,11 +602,51 @@ In sample studies, we have to make a plan regarding the size of the sample, sele
 ### Understanding Sampling Distribution
 A lot of data drawn and used by academicians, statisticians, researchers, marketers, analysts, etc. are actually samples, not populations. A sample is a subset of a population. For example, a medical researcher that wanted to compare the average weight of all babies born in North America from 1995 to 2005 to those born in South America within the same time period cannot draw the data for the entire population of over a million childbirths that occurred over the ten-year time frame within a reasonable amount of time. They will instead only use the weight of, say, 100 babies, in each continent to make a conclusion. The weight of 100 babies used is the sample and the average weight calculated is the sample mean.
 
+### Non-Random Sampling Methods
+Non-random sampling methods select locations for sampling by either: according to regular (i.e., systematic) patterns, targeting specific features or events, using personal or anecdotal (based on anecdotes and possibly not true or accurate) information, or without any specific plan. Care must be exercised when using non-random sample selection methods because the samples may not be representative of the entire population. If this is the case, then inference cannot extend beyond the set of sampling units. Some common non-random sample design techniques are discussed below. Unless otherwise stated, the primary reference for these discussions was Elzinga et al. (2001).
+
+### Random Sampling Methods
+Random sampling methods rely on randomization at some point in the sample design process in an attempt to achieve statistically unbiased samples. Random sampling methods are a form of design-based inferencewhere 1): the population being measured is assumed to have fixed parameters at the time they are sampled, and 2) that a randomly-selected set of samples for the population represents one realization of all possible sample sets (i.e., the sample set is a random variable). There are many different random sampling techniques. Some of the most common techniques are described below. Unless otherwise stated, the primary source for information on these methods is Elzinga et al. (2001).
+
 ![12 09 2022_20 35 15_REC](https://user-images.githubusercontent.com/99672298/190981714-719a460c-f90f-4569-ac11-17e17768276d.png)
+
 ![26 02 2022_13 24 51_REC](https://user-images.githubusercontent.com/99672298/190982694-60e2e38a-d455-4b9f-a901-06ce57ff0bb6.png)
+
+### Simple Random Sampling
+Simple random sampling is the foundation for all of the other random sampling techniques. With this approach, all of the sampling units are enumerated and a specified number of sampling units are selected at random from all the sampling units. Selection of samples for simple random sampling follow two criteria:
+
++ each sampling unit has the same likelihood of being selected, and
++ the selection of one sampling unit does not influence the selection of any other sampling unit.
+
+Disadvantages of simple random sampling
+
++ it does not take into account variability caused by other measurable factors (e.g., aspect, soils, elevation)
++ it can yield high variance estimates and make detection of differences difficult if the population being sampled is not evenly distributed throughout the sample area.
++ it can be an inefficient means of sampling because of the time required to visit all of the sample sites
++ by chance, some areas may be heavily sampled while other areas are not sampled at all
+
 ![26 02 2022_13 25 16_REC](https://user-images.githubusercontent.com/99672298/190982664-fce582ac-42dd-45ec-9ce2-258dfd43ba4e.png)
+
+###
+
 ![26 02 2022_13 25 30_REC](https://user-images.githubusercontent.com/99672298/190982651-35e81bed-667f-4b1f-a83d-1ef7bb6b9dd1.png)
 ![26 02 2022_13 25 44_REC](https://user-images.githubusercontent.com/99672298/190982636-8fa83fc2-4efe-4b7b-91fe-dbf0e4b45684.png)
+
+### Systematic Sampling
+Systematic sampling is the selection of units for sampling or the placement of sampling locations within an area according to a regularly-repeating pattern. Examples of systematic sampling are: locating sample sites on a 1km grid within a pasture, taking measurements every meter along a transect, or orienting transects along cardinal directions. Systematic techniques are commonly used to locate sub-plot sampling sites (e.g., points, transects, frames) within a sampling site where the location of the sampling site has been selected randomly. Alternatively, larger sampling units can be selected systematically and then the location of the specific sampling unit randomly selected within the larger unit (i.e., a form of two-stage sampling or restricted random sampling – see below). This technique is often used with regional- or national-scale assessment and monitoring programs like the NRCS Natural Resource Inventory (NRI) or the USFS Forest Inventory and Analysis (FIA) programs.
+
++ **Advantages of systematic sampling are:**
+
++ it allows even sampling across an area
++ it is quick and easy to implement
++ it is often more efficient than random sampling, and can perform as well or better than random methods in some situations (see Elzinga et al. (2001), p125)
++ When combined with an appropriate randomization method, the data can be analyzed as if it were a random design
+
++ **Disadvantages of systematic sampling are:**
+
++ it can yield biased data if there are regularly-occurring patterns in the population being sampled. For instance, when sampling for road impacts, transects oriented along cardinal directions may yield biased estimates of road impacts because many roads are oriented along cardinal directions too (M. Duniway, pers. comm.)
++ systematic sampling can miss or under-represent small or narrow features of a landscape if the sampling interval is too large.
+
 ![26 02 2022_13 25 59_REC](https://user-images.githubusercontent.com/99672298/190982621-15f87cde-6ecf-4f08-93fa-fafee27ab9e3.png)
 ![stratified-sampling-example-vector-illustration-diagram-research-method-explanation-scheme-person-symbols-stages-175044570](https://user-images.githubusercontent.com/99672298/190982306-e600f6a2-5761-46e3-9307-e851b201edeb.jpg)
 ![StratifiedRandomSampling](https://user-images.githubusercontent.com/99672298/190982472-9f346a6d-afab-40bd-815f-7f37b5fae9be.jpg)
