@@ -750,8 +750,36 @@ A Normal Q-Q plot is a kind of scatter plot that is plotted by creating two sets
 
 On the x-axis, we have the Z-scores and on the y-axis, we have the actual sample quantiles. If the scatter plot forms a straight line, data is said to be normal.
 ____
-### Probability Density function
+### Distribution function
 
+Statisticians have observed that frequently used data occur in familiar patterns and so have sort to understand and define them. Frequently seen patterns include the normal distribution, uniform distribution, binomial distribution, etc.
+
+#### The Cumulative Distribution Function (CDF)
+The cumulative distribution function (CDF) is the probability that a random variable, say X, will take a value equal to or less than x.
+
+For example, if you roll a die, the probability of obtaining a 1 or 2 or 3 or 4 or 5 or 6 is 16.667% (=1/6) individually. The cumulative distribution function (CDF) of 1 is the probability that the next roll will take a value less than or equal to 1 and is 16.667%. There is only one possible way to get a 1. The cumulative distribution function (CDF) of 2 is the probability that the next roll will take a value less than or equal to 2. The cumulative distribution function (CDF) of 2 is 33.33% as there are two possible ways to get a 2 or below (the roll giving a 1 or 2).
+
+![image](https://user-images.githubusercontent.com/99672298/191513349-6e27091a-e125-4c1a-bc04-d6d44dd88dd8.png)
+
+Cumulative Distribution Function for x=2 in the case of a roll of a dice.
+The cumulative distribution function (CDF) of 6 is 100%. The cumulative distribution function (CDF) of 6 is the probability that the next roll will take a value less than or equal to 6 and is equal to 100% as all possible results will be less than or equal to 6.
+
+#### Probability Density Function (PDF)
+The probability density function (PDF) is the probability that a random variable, say X, will take a value exactly equal to x. Note the difference between the cumulative distribution function (CDF) and the probability density function (PDF) – Here the focus is on one specific value. Whereas, for the cumulative distribution function, we are interested in the probability of taking on a value equal to or less than the specified value. The probability density function is also referred to as the probability mass function. So do not get perturbed if you encounter the probability mass function.
+
+![image](https://user-images.githubusercontent.com/99672298/191513554-317fa96d-452a-40fa-b71f-7fe669234183.png)
+
+For example, if you roll a die, the probability of obtaining 1, 2, 3, 4, 5, or 6 is 16.667% (=1/6). The probability density function (PDF) or the probability that you will get exactly 2 will be 16.667%. Whereas, the cumulative distribution function (CDF) of 2 is 33.33% as described above.
+
+#### Probability Density Function (PDF) vs Cumulative Distribution Function (CDF)
+The CDF is the probability that random variable values less than or equal to x whereas the PDF is a probability that a random variable, say X, will take a value exactly equal to x.
+
+![image](https://user-images.githubusercontent.com/99672298/191513665-b72a23d0-73ee-4f5a-82bf-dfcbd6f36c80.png)
+
+#### Probability Mass Function vs Cumulative Distribution Function for Continuous Distributions and Discrete Distributions
+We have seen above that the probability density function is relevant in the case of discrete distributions (roll of a dice). Why is the probability density function not relevant in the case of continuous distributions?
+
+There is an infinite number of values between the min and max in the case of continuous distributions. Therefore, we can say that the probability of a specific value will be 1/infinity or practically zero! So we conclude that the probability density functions are not relevant in the case of continuous distributions.
 ____
 ### Imputation
 
@@ -764,6 +792,47 @@ ____
 
 
 ### Correlation
+
+#### Spearman's Rank-Order Correlation
+This guide will tell you when you should use Spearman's rank-order correlation to analyse your data, what assumptions you have to satisfy, how to calculate it, and how to report it. If you want to know how to run a Spearman correlation in SPSS Statistics, go to our Spearman's correlation in SPSS Statistics guide.
+
+**When should you use the Spearman's rank-order correlation?**
+The Spearman's rank-order correlation is the nonparametric version of the Pearson product-moment correlation. Spearman's correlation coefficient, (ρ, also signified by rs) measures the strength and direction of association between two ranked variables.
+
+**What are the assumptions of the test?**
+You need two variables that are either ordinal, interval or ratio (see our Types of Variable guide if you need clarification). Although you would normally hope to use a Pearson product-moment correlation on interval or ratio data, the Spearman correlation can be used when the assumptions of the Pearson correlation are markedly violated. However, Spearman's correlation determines the strength and direction of the monotonic relationship between your two variables rather than the strength and direction of the linear relationship between your two variables, which is what Pearson's correlation determines.
+
+**What is a monotonic relationship?**
+A monotonic relationship is a relationship that does one of the following: (1) as the value of one variable increases, so does the value of the other variable; or (2) as the value of one variable increases, the other variable value decreases. Examples of monotonic and non-monotonic relationships are presented in the diagram below:
+
+![image](https://user-images.githubusercontent.com/99672298/191515036-cfc7f20c-3734-40b4-85fe-50a2d72e8d5d.png)
+
+**Why is a monotonic relationship important to Spearman's correlation?**
+Spearman's correlation measures the strength and direction of monotonic association between two variables. Monotonicity is "less restrictive" than that of a linear relationship. For example, the middle image above shows a relationship that is monotonic, but not linear.
+
+A monotonic relationship is not strictly an assumption of Spearman's correlation. That is, you can run a Spearman's correlation on a non-monotonic relationship to determine if there is a monotonic component to the association. However, you would normally pick a measure of association, such as Spearman's correlation, that fits the pattern of the observed data. That is, if a scatterplot shows that the relationship between your two variables looks monotonic you would run a Spearman's correlation because this will then measure the strength and direction of this monotonic relationship. On the other hand if, for example, the relationship appears linear (assessed via scatterplot) you would run a Pearson's correlation because this will measure the strength and direction of any linear relationship. You will not always be able to visually check whether you have a monotonic relationship, so in this case, you might run a Spearman's correlation anyway.
+
+**How to rank data?**
+In some cases your data might already be ranked, but often you will find that you need to rank the data yourself (or use SPSS Statistics to do it for you). Thankfully, ranking data is not a difficult task and is easily achieved by working through your data in a table. Let us consider the following example data regarding the marks achieved in a maths and English exam:
+
+![image](https://user-images.githubusercontent.com/99672298/191515171-569dad2e-2cc3-427a-b8fb-c7de11fd46f0.png)
+
+You need to rank the scores for maths and English separately. The score with the highest value should be labelled "1" and the lowest score should be labelled "10" (if your data set has more than 10 cases then the lowest score will be how many cases you have). Look carefully at the two individuals that scored 61 in the English exam (highlighted in bold). Notice their joint rank of 6.5. This is because when you have two identical values in the data (called a "tie"), you need to take the average of the ranks that they would have otherwise occupied. We do this because, in this example, we have no way of knowing which score should be put in rank 6 and which score should be ranked 7. Therefore, you will notice that the ranks of 6 and 7 do not exist for English. These two ranks have been averaged ((6 + 7)/2 = 6.5) and assigned to each of these "tied" scores.
+
+**What is the definition of Spearman's rank-order correlation?**
+There are two methods to calculate Spearman's correlation depending on whether: (1) your data does not have tied ranks or (2) your data has tied ranks. The formula for when there are no tied ranks is:
+
+![image](https://user-images.githubusercontent.com/99672298/191515267-2ddebc4b-41e2-42e5-abdd-1ab835411b64.png)
+
+**What values can the Spearman correlation coefficient, rs, take?**
+The Spearman correlation coefficient, rs, can take values from +1 to -1. A rs of +1 indicates a perfect association of ranks, a rs of zero indicates no association between ranks and a rs of -1 indicates a perfect negative association of ranks. The closer rs is to zero, the weaker the association between the ranks.
+
+An example of calculating Spearman's correlation
+To calculate a Spearman rank-order correlation on data without any ties we will use the following data:
+
+![image](https://user-images.githubusercontent.com/99672298/191515724-5180d659-73ab-49a6-bb32-b9a58797599d.png)
+![image](https://user-images.githubusercontent.com/99672298/191515822-6e2df8f4-f7fe-4214-afc7-ce289c7f8d68.png)
+
 
 ![31 03 2022_12 27 48_REC](https://user-images.githubusercontent.com/99672298/190981901-f8fd0acf-458d-47d1-ba48-ebcaef9abf37.png)
 
