@@ -841,6 +841,9 @@ Kendall’s Tau = (C – D / C + D)
 Where C is the number of concordant pairs and D is the number of discordant pairs.
 
 Example Problem
+
+![image](https://user-images.githubusercontent.com/99672298/191551514-9c390703-e03a-48f7-bec0-2799861fc094.png)
+
 Sample Question: Two interviewers ranked 12 candidates (A through L) for a position. The results from most preferred to least preferred are:
 
 Interviewer 1: ABCDEFGHIJKL.
@@ -853,6 +856,16 @@ Step 1: Make a table of rankings. The first column, “Candidate” is optional 
 ![image](https://user-images.githubusercontent.com/99672298/191536859-c7adba85-035b-41b3-b1f1-95e069fe8eae.png)
 ![image](https://user-images.githubusercontent.com/99672298/191536997-dae41f6b-fcba-4c92-9bca-aedd0d3adba5.png)
 
+#### What are Concordant Pairs and Discordant Pairs?
+Concordant pairs and discordant pairs refer to comparing two pairs of data points to see if they “match.” The meaning is slightly different depending on if you are finding these pairs from various coefficients (like Kendall’s Tau) or if you are performing experimental studies and clinical trials.
+
+1. In Coefficient Calculations
+Concordant pairs and discordant pairs are used in Kendall’s Tau, for Goodman and Kruskal’s Gamma and in Logistic Regression. They are calculated for ordinal (ordered) variables and tell you if there is agreement (or disagreement) between scores. To calculate concordance or discordance, your data must be ordered and placed into pairs.
+
+Example of Tied, Concordant and Discordant Pairs
+Let’s say you had two interviewers rate a group of twelve job applicants:
+
+![image](https://user-images.githubusercontent.com/99672298/191552206-eb8bf8f9-f933-4376-9090-76a55afae41d.png)
 
 #### Spearman’s rank correlation coefficient is the more widely used rank correlation coefficient.
 
@@ -912,6 +925,11 @@ To calculate a Spearman rank-order correlation on data without any ties we will 
 ![image](https://user-images.githubusercontent.com/99672298/191515724-5180d659-73ab-49a6-bb32-b9a58797599d.png)
 ![image](https://user-images.githubusercontent.com/99672298/191515822-6e2df8f4-f7fe-4214-afc7-ce289c7f8d68.png)
 
+#### Pearson's correlation is a measure of the linear relationship between two continuous random variables. It does not assume normality although it does assume finite variances and finite covariance. When the variables are bivariate normal, Pearson's correlation provides a complete description of the association.
+
+**Spearman's correlation applies to ranks and so provides a measure of a monotonic relationship between two continuous random variables. It is also useful with ordinal data and is robust to outliers (unlike Pearson's correlation).**
+
+**The distribution of either correlation coefficient will depend on the underlying distribution, although both are asymptotically normal because of the central limit theorem.**
 
 ![31 03 2022_12 27 48_REC](https://user-images.githubusercontent.com/99672298/190981901-f8fd0acf-458d-47d1-ba48-ebcaef9abf37.png)
 
