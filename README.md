@@ -801,4 +801,5 @@ A combination is all about grouping. The number of different groups which can be
 + This is a simple example of combinations. C(5,2) = 10.
 
 <img width="620" alt="3739f8e23248b79e3002acc01005beb2" src="https://user-images.githubusercontent.com/99672298/190962957-3a75ea7f-2a4f-4b52-9db6-fb29666ce62c.png">
+
 ![image](https://user-images.githubusercontent.com/99672298/191480015-a22f7808-d8fa-47be-8ba4-483ee8bc2cbb.png)
