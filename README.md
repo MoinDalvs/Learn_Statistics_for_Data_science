@@ -9,26 +9,30 @@
 
 ## 0.1 Table of Contents<a class="anchor" id="0.1"></a>
 1. [Let's talk about Statistics and its types.](#1)
-2. [Some Basic Concepts Related to Neural Networks](#2)
-	- 2.1 [Different layers of a Neural Network](#2.1)
-3. [Weight and Bias initialization](#3)
-	- 3.1 [Why Weight Initialization?](#3.1)
-	- 3.2 [Zero initialization](#3.2)
-	- 3.3 [Random initialization (Initialized weights randomly)](#3.3)
-	- 3.4 [Weight Initialization for ReLU](#3.4)
-	- 3.5 [Weight Initialization for Sigmoid and Tanh](#3.5)
-	- 3.6 [Best Practices for Weight Initialization](#3.6)
-4. [Activation Functions](#4)
+	- 1.1 [Descriptive Statistics](#1.1)
+	- 1.2 [Inferential Statistics](#1.2)
+2. [Data Types and Level of Measurement](#2)
+	- 2.1 [Importance of Qualitative and Quantitative Data](#2.1)
+	- 2.2 [Can Ordinal and Discrete type overlap?](#2.2)
+	- 2.3 [Level of Measurements](#2.3)
+3. [Moments of Business Decision](#3)
+	- 3.1 [Measures of Central tendency](#3.1)
+	- 3.2 [Mean](#3.2)
+	- 3.3 [Median](#3.3)
+	- 3.4 [Mode](#3.4)
+	- 3.5 [Causes of a Multimodal Distribution](#3.5)
+	- 3.6 [Mean vs Median](#3.6)
+5. [Activation Functions](#4)
  	- 4.1 [Why do we need Activation Function in Neural Network?](#4.1)
  	- 4.2 [Basic Types of Neural Network Activation Function](#4.2)
  	- 4.3 [Non-Linear Neural Networks Activation Functions](#4.3)
  	- 4.4 [How to choose the right Activation Function?](#4.4)
-5. [Why are deep neural networks hard to train?](#5)
+6. [Why are deep neural networks hard to train?](#5)
 	- 5.1 [Vanishing Gradient Descent](#5.1)
 	- 5.2 [Exploding Gradient Descent](#5.2)
 	- 5.3 [Why do the gradients even vanish/explode?](#5.3)
 	- 5.4 [How to know if our model is suffering from the Exploding/Vanishing gradient problem?](#5.4)
-6. [How to avoid Overfitting of Neural Networks?](#6)
+7. [How to avoid Overfitting of Neural Networks?](#6)
 	- 6.1 [What is Regularization?](#6.1)
 	- 6.2 [What is Dropout?](#6.2)
 	- 6.3 [What is Neural Network Pruning?](#6.3)
@@ -49,7 +53,7 @@ Statistics is broadly categorized into two types:
 
 ![01 02 2022_22 16 38_REC](https://user-images.githubusercontent.com/99672298/190960580-a9d37c78-33e0-4092-bb0c-035ed724d6b7.png)
 
-### Descriptive Statistics:<a class="anchor" id="1"></a>
+### Descriptive Statistics:<a class="anchor" id="1.1"></a>
 It utilized numerical and graphical methods to look for patterns in a dataset, to summarize the information revealed in a dataset, and to present the information in a convinient form that individuals can use to make decisions( Mean, Median, Mode, Variance, Standard deviation and charts ore Probability Distribution)
 
 Basically, as part of descriptive Statistics, we measure the following:
@@ -59,7 +63,7 @@ Basically, as part of descriptive Statistics, we measure the following:
 + Dispersion: the spread of the data – range, variance, and standard deviation
 + The measure of position: percentiles and quantile ranks
 
-### Inferential Statistics<a class="anchor" id="1"></a>
+### Inferential Statistics<a class="anchor" id="1.2"></a>
 In Inferential statistics,  utilizing sample data, to estimate decisions, predictions or other generalization by running Hypothesis testing to assess the assumptions made about the population parameters.
 
 In simple terms, we interpret the meaning of the descriptive statistics by inferring them to the population. The main goal of inferential statistics is to make a conclusion about a population based off a sample of data from the population. 
@@ -68,7 +72,7 @@ For example, we are conducting a survey on the number of two-wheelers in a city.
 
 From the survey conducted, it is found that 800 people out of 1000 (800 out of 1000 is 80%) are using two-wheelers. So, we can infer these results to the population and conclude that 4L people out of the 5L population are using two-wheelers.
 
-### Data Types and Level of Measurement<a class="anchor" id="1"></a>
+## Data Types and Level of Measurement<a class="anchor" id="2"></a>
 
 There is structured and unstructured data. Then you have qualitative and quantitative data. Now let's explore two more data types (discrete and continuous) and help you understand the difference. 
 
@@ -84,12 +88,12 @@ On the other hand, Quantitative data is numerical, and it is again divided into 
 
 ![25 02 2022_15 17 21_REC](https://user-images.githubusercontent.com/99672298/190960918-62283d9a-addc-41dc-85e1-806dcb215fcd.png)
 
-### Importance of Qualitative and Quantitative Data<a class="anchor" id="1"></a>
+### Importance of Qualitative and Quantitative Data<a class="anchor" id="2.1"></a>
 Qualitative types of data in research work around the characteristics of the retrieved information and helps understand customer behavior. This type of data in statistics helps run market analysis through genuine figures and create value out of service by implementing useful information. Qualitative types of data in statistics can drastically affect customer satisfaction if applied smartly.
 
 On the other hand, the Quantitative data types of statistical data work with numerical values that can be measured, answering questions such as ‘how much’, ‘how many’, or ‘how many times’. Quantitative data types in statistics contain a precise numerical value. Therefore, they can help organizations use these figures to gauge improved and faulty figures and predict future trends.
 
-### Can Ordinal and Discrete type overlap?<a class="anchor" id="1"></a>
+### Can Ordinal and Discrete type overlap?<a class="anchor" id="2.2"></a>
 If you pay attention to this, you can give numbering to the ordinal classes, and then it should be called discrete type or ordinal? The truth is that it is still ordinal. The reason for this is that even if the numbering is done, it doesn’t convey the actual distances between the classes.
 
 For instance, consider the grading system of a test. The respective grades can be A, B, C, D, E, and if we number them from starting then it would be 1,2,3,4,5. Now according to the numerical differences, the distance between E grade and D grade is the same as the distance between the D and C grade which is not very accurate as we all know that C grade is still acceptable as compared to E grade but the mid difference declares them as equal.
@@ -110,8 +114,18 @@ Discrete data is again divided into Categorical and Count Data.
 
 ![image](https://user-images.githubusercontent.com/99672298/190947605-87aca262-3b39-49bc-98d2-ea4e200c91fb.png)
 
-### Level of Measurement<a class="anchor" id="1"></a>
+### Level of Measurements<a class="anchor" id="2.3"></a>
 In statistics, the level of measurement is a classification that describes the relationship between the values of a variable.
+
+#### Discrete
+The numerical values which fall under are integers or whole numbers are placed under this category. The number of speakers in the phone, cameras, cores in the processor, the number of sims supported all these are some of the examples of the discrete data type.
+
+Discrete data types in statistics cannot be measured – it can only be counted as the objects included in discrete data have a fixed value. The value can be represented in decimal, but it has to be whole. Discrete data is often identified through charts, including bar charts, pie charts, and tally charts.
+
+#### Continuous
+ The fractional numbers are considered as continuous values. These can take the form of the operating frequency of the processors, the android version of the phone, wifi frequency, temperature of the cores, and so on. 
+
+Unlike discrete data types of data in research, with a whole and fixed value, continuous data can break down into smaller pieces and can take any value. For example, volatile values such as temperature and the weight of a human can be included in the continuous value. Continuous types of statistical data are represented using a graph that easily reflects value fluctuation by the highs and lows of the line through a certain period of time. 
 
 ![image](https://user-images.githubusercontent.com/99672298/190948985-801268e9-f19a-4aa0-845e-54fdce98a1fb.png)
 ![image](https://user-images.githubusercontent.com/99672298/190952524-d2c841eb-e176-4bec-8c2f-20941eef601b.png)
@@ -157,16 +171,6 @@ Ordinal data is made up of ordinal variables. In other words, if you have a list
 + You don’t have to have the exact words “first, second, third….” Instead, you can have different rating scales, like “Hot, hotter, hottest” or “Agree, strongly agree, disagree.”
 + You don’t know if the intervals between the values are equal. We know that a list of cardinal numbers like 1, 5, 10 have a set value between them (in this case, 5) but with ordinal data you just don’t know. For example, in a marathon you might have first, second and third place. But if you don’t know the exact finishing times, you don’t know what the interval between first and second, or second and third is.
 
-### Discrete
-The numerical values which fall under are integers or whole numbers are placed under this category. The number of speakers in the phone, cameras, cores in the processor, the number of sims supported all these are some of the examples of the discrete data type.
-
-Discrete data types in statistics cannot be measured – it can only be counted as the objects included in discrete data have a fixed value. The value can be represented in decimal, but it has to be whole. Discrete data is often identified through charts, including bar charts, pie charts, and tally charts.
-
-### Continuous
- The fractional numbers are considered as continuous values. These can take the form of the operating frequency of the processors, the android version of the phone, wifi frequency, temperature of the cores, and so on. 
-
-Unlike discrete data types of data in research, with a whole and fixed value, continuous data can break down into smaller pieces and can take any value. For example, volatile values such as temperature and the weight of a human can be included in the continuous value. Continuous types of statistical data are represented using a graph that easily reflects value fluctuation by the highs and lows of the line through a certain period of time. 
-
 3. **Interval Scale:**
 It is a numerical scale. The Interval scale has more information than the nominal, ordinal scales. Along with the order, we know the difference between the two variables (interval indicates the distance between two entities).
 
@@ -199,30 +203,30 @@ With the option of true zero, varied inferential, and descriptive analysis techn
 ![image](https://user-images.githubusercontent.com/99672298/190954635-62b632cc-ef5d-4195-9760-8a4c1ffb5a4d.png)
 
 ____
-## Moments of Business Decision
+## Moments of Business Decision<a class="anchor" id="3"></a>
 
 We have four moments of business decision that help us understand the data.
 
-### Measures of Central tendency
+### Measures of Central tendency<a class="anchor" id="3.1"></a>
 
 (It is also known as First Moment Business Decision)
 
 Talks about the centrality of the data. To keep it simple, it is a part of descriptive statistical analysis where a single value at the centre represents the entire dataset.
 
 ____
-## Mean
+### Mean<a class="anchor" id="3.2"></a>
 
 It is the sum of all the data points divided by the total number of values in the data set. Mean cannot always be relied upon because it is influenced by outliers.
 
 ____
-## MEdian
+### Median<a class="anchor" id="3.3"></a>
 
 It is the middlemost value of a sorted/ordered dataset. If the size of the dataset is even, then the median is calculated by taking the average of the two middle values. In case of outliers Mean cannot be relied upon as much as median. A Median will have better representation of information when an outliers are present.
 
 ![15 09 2022_21 39 39_REC](https://user-images.githubusercontent.com/99672298/190981525-b87b46fc-3690-4822-a21e-a32f4bc90730.png)
 
 ____
-## Mode
+### Mode<a class="anchor" id="3.4"></a>
 
 It is the most repeated value in the dataset. Data with a single mode is called unimodal, data with two modes is called bimodal, and data with more than two modes is called multimodal.
 
@@ -244,14 +248,14 @@ A multimodal distribution is known as a Plateau Distribution when there are more
 
 ![image](https://user-images.githubusercontent.com/99672298/190957449-01447354-8565-498f-aa9d-d42f10105e44.png)
 
-#### Causes of a Multimodal Distribution
+### Causes of a Multimodal Distribution<a class="anchor" id="3.5"></a>
 A multimodal distribution in a sample is usually an indication that the distribution in the population is not normal. It can also indicate that your sample has several patterns of response or extreme views, preferences or attitudes.
 
 When thinking about the cause of the multimodality, you may want to take a close look at your data; what may be going on is that two or more distributions are being graphed at the same time. This is opposed to a true multimodal distribution, where only one distribution is mapped. For example, the following image shows two groups of students, one of which studied (the peak on the left) and one of which didn’t (the peak on the right).
 
 ![image](https://user-images.githubusercontent.com/99672298/190957530-3009f629-cf5c-436d-94ca-a7fe104dff6a.png)
 
-### Mean vs Median
+### Mean vs Median<a class="anchor" id="3.6"></a>
 
 Mean will tell the Average and in some sense it will give ust the central tendecy of the data. Median will give the middle most value of the data and in both case they are telling us central tendecy (centre of the data). In case of outliers mean cannot be trusted as much as median. A median will have better representation of information when as outliers are present and if the mean is greater than median the distribution is right skewed and if the mean is lesser than median the distribution is right skewed.
 
