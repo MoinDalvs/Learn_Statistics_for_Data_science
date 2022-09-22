@@ -1,12 +1,46 @@
-# Learn_stats_for-Data_science
+# Learn_Statistics_for_Data_science
 
 ![inbox_221701_c1e7f0c6c305bffe3d62bd37d8783ed8_prob](https://user-images.githubusercontent.com/99672298/190671924-4c9b0dd4-243b-4828-9ade-f91a0555bb16.png)
+
+### `Read and catch up on content:`
+- [Gradient Descent article](https://github.com/MoinDalvs/Gradient_Descent_For_beginners/blob/main/README.md) :books:
+
+## Don't get lost in the Statistics below is the path Follow! and Conquer it!
+
+## 0.1 Table of Contents<a class="anchor" id="0.1"></a>
+1. [Let's talk about Statistics and its types.](#1)
+2. [Some Basic Concepts Related to Neural Networks](#2)
+	- 2.1 [Different layers of a Neural Network](#2.1)
+3. [Weight and Bias initialization](#3)
+	- 3.1 [Why Weight Initialization?](#3.1)
+	- 3.2 [Zero initialization](#3.2)
+	- 3.3 [Random initialization (Initialized weights randomly)](#3.3)
+	- 3.4 [Weight Initialization for ReLU](#3.4)
+	- 3.5 [Weight Initialization for Sigmoid and Tanh](#3.5)
+	- 3.6 [Best Practices for Weight Initialization](#3.6)
+4. [Activation Functions](#4)
+ 	- 4.1 [Why do we need Activation Function in Neural Network?](#4.1)
+ 	- 4.2 [Basic Types of Neural Network Activation Function](#4.2)
+ 	- 4.3 [Non-Linear Neural Networks Activation Functions](#4.3)
+ 	- 4.4 [How to choose the right Activation Function?](#4.4)
+5. [Why are deep neural networks hard to train?](#5)
+	- 5.1 [Vanishing Gradient Descent](#5.1)
+	- 5.2 [Exploding Gradient Descent](#5.2)
+	- 5.3 [Why do the gradients even vanish/explode?](#5.3)
+	- 5.4 [How to know if our model is suffering from the Exploding/Vanishing gradient problem?](#5.4)
+6. [How to avoid Overfitting of Neural Networks?](#6)
+	- 6.1 [What is Regularization?](#6.1)
+	- 6.2 [What is Dropout?](#6.2)
+	- 6.3 [What is Neural Network Pruning?](#6.3)
+	- 6.4 [Early stopping](#6.4)
+8. [Step by Step Working of the Artificial Neural Network](#7)
+
 ![30 03 2022_15 52 11_REC](https://user-images.githubusercontent.com/99672298/190672178-6591a16f-0939-4262-9226-3bcfb40a7e7f.png)
 ![30 03 2022_15 52 32_REC](https://user-images.githubusercontent.com/99672298/190672197-76e232bd-1202-408c-a7b0-1bde68671d38.png)
 ![30 03 2022_15 53 01_REC](https://user-images.githubusercontent.com/99672298/190672213-c2e51ed4-1840-4fa5-b51e-6a4916968f4f.png)
 
 ____
-## Statistics and its types
+## Statistics and its types<a class="anchor" id="1"></a>
 
 Statistics is broadly categorized into two types:
 
@@ -15,7 +49,7 @@ Statistics is broadly categorized into two types:
 
 ![01 02 2022_22 16 38_REC](https://user-images.githubusercontent.com/99672298/190960580-a9d37c78-33e0-4092-bb0c-035ed724d6b7.png)
 
-### Descriptive Statistics:
+### Descriptive Statistics:<a class="anchor" id="1"></a>
 It utilized numerical and graphical methods to look for patterns in a dataset, to summarize the information revealed in a dataset, and to present the information in a convinient form that individuals can use to make decisions( Mean, Median, Mode, Variance, Standard deviation and charts ore Probability Distribution)
 
 Basically, as part of descriptive Statistics, we measure the following:
@@ -25,7 +59,7 @@ Basically, as part of descriptive Statistics, we measure the following:
 + Dispersion: the spread of the data – range, variance, and standard deviation
 + The measure of position: percentiles and quantile ranks
 
-### Inferential Statistics
+### Inferential Statistics<a class="anchor" id="1"></a>
 In Inferential statistics,  utilizing sample data, to estimate decisions, predictions or other generalization by running Hypothesis testing to assess the assumptions made about the population parameters.
 
 In simple terms, we interpret the meaning of the descriptive statistics by inferring them to the population. The main goal of inferential statistics is to make a conclusion about a population based off a sample of data from the population. 
@@ -34,7 +68,7 @@ For example, we are conducting a survey on the number of two-wheelers in a city.
 
 From the survey conducted, it is found that 800 people out of 1000 (800 out of 1000 is 80%) are using two-wheelers. So, we can infer these results to the population and conclude that 4L people out of the 5L population are using two-wheelers.
 
-### Data Types and Level of Measurement
+### Data Types and Level of Measurement<a class="anchor" id="1"></a>
 
 There is structured and unstructured data. Then you have qualitative and quantitative data. Now let's explore two more data types (discrete and continuous) and help you understand the difference. 
 
@@ -50,12 +84,12 @@ On the other hand, Quantitative data is numerical, and it is again divided into 
 
 ![25 02 2022_15 17 21_REC](https://user-images.githubusercontent.com/99672298/190960918-62283d9a-addc-41dc-85e1-806dcb215fcd.png)
 
-### Importance of Qualitative and Quantitative Data
+### Importance of Qualitative and Quantitative Data<a class="anchor" id="1"></a>
 Qualitative types of data in research work around the characteristics of the retrieved information and helps understand customer behavior. This type of data in statistics helps run market analysis through genuine figures and create value out of service by implementing useful information. Qualitative types of data in statistics can drastically affect customer satisfaction if applied smartly.
 
 On the other hand, the Quantitative data types of statistical data work with numerical values that can be measured, answering questions such as ‘how much’, ‘how many’, or ‘how many times’. Quantitative data types in statistics contain a precise numerical value. Therefore, they can help organizations use these figures to gauge improved and faulty figures and predict future trends.
 
-### Can Ordinal and Discrete type overlap?
+### Can Ordinal and Discrete type overlap?<a class="anchor" id="1"></a>
 If you pay attention to this, you can give numbering to the ordinal classes, and then it should be called discrete type or ordinal? The truth is that it is still ordinal. The reason for this is that even if the numbering is done, it doesn’t convey the actual distances between the classes.
 
 For instance, consider the grading system of a test. The respective grades can be A, B, C, D, E, and if we number them from starting then it would be 1,2,3,4,5. Now according to the numerical differences, the distance between E grade and D grade is the same as the distance between the D and C grade which is not very accurate as we all know that C grade is still acceptable as compared to E grade but the mid difference declares them as equal.
@@ -76,7 +110,7 @@ Discrete data is again divided into Categorical and Count Data.
 
 ![image](https://user-images.githubusercontent.com/99672298/190947605-87aca262-3b39-49bc-98d2-ea4e200c91fb.png)
 
-### Level of Measurement
+### Level of Measurement<a class="anchor" id="1"></a>
 In statistics, the level of measurement is a classification that describes the relationship between the values of a variable.
 
 ![image](https://user-images.githubusercontent.com/99672298/190948985-801268e9-f19a-4aa0-845e-54fdce98a1fb.png)
