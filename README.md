@@ -58,12 +58,18 @@
 	- 13.1 [What are Outliers? 🤔](#13.1)
 	- 13.2 [Why do they occur?](#13.2)
 	- 13.3 [How do they affect?](#13.3)
-	- 13.4 [Detecting and Handling Outliers](#13.4)
-14.) [Q-Q Plot](#14)
-15.) [Distribution Function](#15)
+	- 13.4 [Detecting and Handling Outliers](#13.4)	
+14. [Q-Q Plot](#14)
+15. [Distribution Function](#15)
 	- 15.1 [The Cumulative Distribution Function (CDF)](#15.1)
 	- 15.2 [Probability Density Function (PDF)](#15.2)
 	- 15.3 [Probability Density Function (PDF) vs Cumulative Distribution Function (CDF)](#15.3)
+16. [Covariance](#16)
+17. [Correlation](#17)
+	- 17.1 [Kendall’s Tau and Spearman’s Rank Correlation Coefficient](#17.1)
+	- 17.2 [Pearson's correlation](#17.2)
+18. [Permutation and Combination](#18)
+
 
 ![30 03 2022_15 52 11_REC](https://user-images.githubusercontent.com/99672298/190672178-6591a16f-0939-4262-9226-3bcfb40a7e7f.png)
 ![30 03 2022_15 52 32_REC](https://user-images.githubusercontent.com/99672298/190672197-76e232bd-1202-408c-a7b0-1bde68671d38.png)
@@ -945,18 +951,18 @@ The CDF is the probability that random variable values less than or equal to x w
 We have seen above that the probability density function is relevant in the case of discrete distributions (roll of a dice). Why is the probability density function not relevant in the case of continuous distributions?
 
 There is an infinite number of values between the min and max in the case of continuous distributions. Therefore, we can say that the probability of a specific value will be 1/infinity or practically zero! So we conclude that the probability density functions are not relevant in the case of continuous distributions.
-____
-### Imputation
 
+[Table of Content](#0.1)
 ____
-### Covariance
+### 16.) Covariance<a class="anchor" id="16"></a>
 
 ![07 05 2022_13 13 53_REC](https://user-images.githubusercontent.com/99672298/190981837-3684c83b-3a03-494a-b1e2-c4cec3dbd611.png)
 ![04 05 2022_20 05 57_REC](https://user-images.githubusercontent.com/99672298/190981878-f7ef77f3-6ea8-49b1-97c9-909c5baf0ada.png)
 ![Covariance-Formula](https://user-images.githubusercontent.com/99672298/190981973-c91ce53d-c933-48e7-bab1-8ef22905c33f.jpg)
 
+[Table of Content](#0.1)
 ___
-### Correlation
+### 17.) Correlation<a class="anchor" id="17"></a>
 
 Correlation coefficients take the values between minus one and plus one.  The positive correlation signifies that the ranks of both the variables are increasing.  On the other hand, the negative correlation signifies that as the rank of one variable is increased, the rank of the other variable is decreased.
 
@@ -972,7 +978,7 @@ Kendall's rank correlation provides a distribution free test of independence and
 
 Spearman's rank correlation is satisfactory for testing a null hypothesis of independence between two variables but it is difficult to interpret when the null hypothesis is rejected. Kendall's rank correlation improves upon this by reflecting the strength of the dependence between the variables being compared.
 
-#### Kendall’s Tau and Spearman’s Rank Correlation Coefficient
+#### 17.1) Kendall’s Tau and Spearman’s Rank Correlation Coefficient<a class="anchor" id="17.1"></a>
 There are two accepted measures of non-parametric rank correlations: Kendall’s tau and Spearman’s (rho) rank correlation coefficient.
 
 Correlation analyses measure the strength of the relationship between two variables.
@@ -1090,7 +1096,8 @@ To calculate a Spearman rank-order correlation on data without any ties we will 
 ![image](https://user-images.githubusercontent.com/99672298/191515724-5180d659-73ab-49a6-bb32-b9a58797599d.png)
 ![image](https://user-images.githubusercontent.com/99672298/191515822-6e2df8f4-f7fe-4214-afc7-ce289c7f8d68.png)
 
-#### Pearson's correlation is a measure of the linear relationship between two continuous random variables. It does not assume normality although it does assume finite variances and finite covariance. When the variables are bivariate normal, Pearson's correlation provides a complete description of the association.
+### Pearson's correlation<a class="anchor" id="17.2"></a>
+It is a measure of the linear relationship between two continuous random variables. It does not assume normality although it does assume finite variances and finite covariance. When the variables are bivariate normal, Pearson's correlation provides a complete description of the association.
 
 **Spearman's correlation applies to ranks and so provides a measure of a monotonic relationship between two continuous random variables. It is also useful with ordinal data and is robust to outliers (unlike Pearson's correlation).**
 
@@ -1098,11 +1105,12 @@ To calculate a Spearman rank-order correlation on data without any ties we will 
 
 ![31 03 2022_12 27 48_REC](https://user-images.githubusercontent.com/99672298/190981901-f8fd0acf-458d-47d1-ba48-ebcaef9abf37.png)
 
-## Permutation and Combination: 
+[Table of Content](#0.1)
+## 18.) Permutation and Combination: 
 
 Permutation and combination form the principles of counting and they are applied in various situations. A permutation is a count of the different arrangements which can be made from the given set of things. In permutation the details matter, as the order or sequence is important. Writing the names of three countries {USA, Brazil, Australia} or {Australia, USA, Brazil) or { Brazil, Australia, USA} is different and this sequence in which the names of the countries are written is important. In combinations, the name of three countries is just a single group, and the sequence or order does not matter. Let us learn more about permutation and combination in the below content.
 
-What are Permutation and Combination?
+#### What are Permutation and Combination?
 Permutation and combination are the methods employed in counting how many outcomes are possible in various situations. Permutations are understood as arrangements and combinations are understood as selections. As per the fundamental principle of counting, there are the sum rules and the product rules to employ counting easily.
 
 Suppose there are 14 boys and 9 girls. If a boy or a girl has to be selected to be the monitor of the class, the teacher can select 1 out of 14 boys or 1 out of 9 girls. She can do it in 14 + 9 = 23 ways(using the sum rule of counting). Let us look at another scenario. Suppose Sam usually takes one main course and a drink. Today he has the choice of burger, pizza, hot dog, watermelon juice, and orange juice. What are all the possible combinations that he can try? There are 3 snack choices and 2 drink choices. We multiply to find the combinations. 3 × 2 = 6. Thus Sam can try 6 combinations using the product rule of counting. This can be shown using tree diagrams as illustrated below.
@@ -1116,7 +1124,7 @@ A permutation is an arrangement in a definite order of a number of objects taken
 
 ![image](https://user-images.githubusercontent.com/99672298/191480993-3be05cf7-8380-4128-a09e-dd0c1dce7976.png)
 
-Combinations
+#### Combinations
 A combination is all about grouping. The number of different groups which can be formed from the available things can be calculated using combinations. Let us try to understand this with a simple example. A team of 2 is formed from 5 students(William, James, Noah, Logan, and Oliver). This the combination of 'r' persons from the available 'n' persons is given as ![image](https://user-images.githubusercontent.com/99672298/191481059-8084f738-c063-4279-b832-74c9595745f4.png). The combinations can happen in the following 10 ways by which the team of 2 could be formed.
 
 + William James
