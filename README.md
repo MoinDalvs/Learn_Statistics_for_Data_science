@@ -693,7 +693,13 @@ In sample studies, we have to make a plan regarding the size of the sample, sele
 Non-random sampling methods select locations for sampling by either: according to regular (i.e., systematic) patterns, targeting specific features or events, using personal or anecdotal (based on anecdotes and possibly not true or accurate) information, or without any specific plan. Care must be exercised when using non-random sample selection methods because the samples may not be representative of the entire population. If this is the case, then inference cannot extend beyond the set of sampling units. Some common non-random sample design techniques are discussed below. Unless otherwise stated, the primary reference for these discussions was Elzinga et al. (2001).
 
 ### 10.6) Random Sampling Methods<a class="anchor" id="10.6"></a>
-Random sampling methods rely on randomization at some point in the sample design process in an attempt to achieve statistically unbiased samples. Random sampling methods are a form of design-based inferencewhere 1): the population being measured is assumed to have fixed parameters at the time they are sampled, and 2) that a randomly-selected set of samples for the population represents one realization of all possible sample sets (i.e., the sample set is a random variable). There are many different random sampling techniques. Some of the most common techniques are described below. Unless otherwise stated, the primary source for information on these methods is Elzinga et al. (2001).
+Random sampling methods rely on randomization at some point in the sample design process in an attempt to achieve statistically unbiased samples. Random sampling methods are a form of design-based inferencewhere 
+
+1): the population being measured is assumed to have fixed parameters at the time they are sampled, and 
+
+2) that a randomly-selected set of samples for the population represents one realization of all possible sample sets (i.e., the sample set is a random variable). 
+
+There are many different random sampling techniques. Some of the most common techniques are described below. Unless otherwise stated, the primary source for information on these methods is Elzinga et al. (2001).
 
 ![12 09 2022_20 35 15_REC](https://user-images.githubusercontent.com/99672298/190981714-719a460c-f90f-4569-ac11-17e17768276d.png)
 ![image](https://user-images.githubusercontent.com/99672298/191477200-10228788-7e89-4d1a-b9d4-6ed9313113c7.png)
