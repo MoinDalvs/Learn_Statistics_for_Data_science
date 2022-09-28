@@ -236,6 +236,8 @@ With the option of true zero, varied inferential, and descriptive analysis techn
 ![image](https://user-images.githubusercontent.com/99672298/190954184-33f4918c-920e-4c3c-a2ab-4013e6206fbc.png)
 ![image](https://user-images.githubusercontent.com/99672298/190954195-4019d825-3784-4328-a78f-1ab964bbbb93.png)
 ![image](https://user-images.githubusercontent.com/99672298/190954635-62b632cc-ef5d-4195-9760-8a4c1ffb5a4d.png)
+![10 09 2022_21 38 24_REC](https://user-images.githubusercontent.com/99672298/192698534-dad75b45-ea51-4b15-94f9-2f5600b462af.png)
+![10 09 2022_21 37 51_REC](https://user-images.githubusercontent.com/99672298/192698548-cfbfdc2a-4a77-47ba-b13a-32719ae79788.png)
 
 [Table of Content](#0.1)
 ____
@@ -926,7 +928,9 @@ ____
 ## 14.) QQ- Plot<a class="anchor" id="14"></a>
 A Normal Q-Q plot is a kind of scatter plot that is plotted by creating two sets of quantiles. It is used to check if the data is following normality or not.
 
+![17 09 2022_20 22 04_REC](https://user-images.githubusercontent.com/99672298/192698296-6453ee67-5dff-43be-a28b-19a6d202318c.png)
 ![image](https://user-images.githubusercontent.com/99672298/191167218-be64fb1e-8afe-447c-b8eb-3217076a8181.png)
+![17 09 2022_20 19 25_REC](https://user-images.githubusercontent.com/99672298/192698301-d204be17-d344-48dc-b5d7-61816f1daea5.png)
 
 On the x-axis, we have the Z-scores and on the y-axis, we have the actual sample quantiles. If the scatter plot forms a straight line, data is said to be normal.
 
@@ -947,6 +951,9 @@ Cumulative Distribution Function for x=2 in the case of a roll of a dice.
 The cumulative distribution function (CDF) of 6 is 100%. The cumulative distribution function (CDF) of 6 is the probability that the next roll will take a value less than or equal to 6 and is equal to 100% as all possible results will be less than or equal to 6.
 
 ### 15.2) Probability Density Function (PDF)<a class="anchor" id="15.2"></a>
+
+![18 09 2022_12 21 11_REC](https://user-images.githubusercontent.com/99672298/192697992-36123796-260e-411f-8ceb-2d75b0c441ef.png)
+
 The probability density function (PDF) is the probability that a random variable, say X, will take a value exactly equal to x. Note the difference between the cumulative distribution function (CDF) and the probability density function (PDF) – Here the focus is on one specific value. Whereas, for the cumulative distribution function, we are interested in the probability of taking on a value equal to or less than the specified value. The probability density function is also referred to as the probability mass function. So do not get perturbed if you encounter the probability mass function.
 
 ![image](https://user-images.githubusercontent.com/99672298/191513554-317fa96d-452a-40fa-b71f-7fe669234183.png)
