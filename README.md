@@ -162,6 +162,7 @@ Discrete data types in statistics cannot be measured – it can only be counted 
 Unlike discrete data types of data in research, with a whole and fixed value, continuous data can break down into smaller pieces and can take any value. For example, volatile values such as temperature and the weight of a human can be included in the continuous value. Continuous types of statistical data are represented using a graph that easily reflects value fluctuation by the highs and lows of the line through a certain period of time. 
 
 ![image](https://user-images.githubusercontent.com/99672298/190948985-801268e9-f19a-4aa0-845e-54fdce98a1fb.png)
+![25 02 2022_15 17 50_REC](https://user-images.githubusercontent.com/99672298/192697029-50a74435-9ab3-4a8c-a839-2e472e93e182.png)
 ![image](https://user-images.githubusercontent.com/99672298/190952524-d2c841eb-e176-4bec-8c2f-20941eef601b.png)
 
 We have four fundamental levels of measurement. They are:
@@ -308,6 +309,8 @@ It is the difference between the maximum and the minimum values of a dataset.
 ____
 ### 3.9) Standard Deviation:<a class="anchor" id="3.9"></a>
 It is the square root of Variance. Helps in retrieving the original units.
+
+![11 02 2022_19 34 09_REC](https://user-images.githubusercontent.com/99672298/192697250-8270dd52-b122-46ac-ab51-8b576660f755.png)
 
 [Table of Content](#0.1)
 ____
@@ -645,6 +648,8 @@ The central limit theorem doesn't have its own formula, but it relies on sample 
 ____
 ## 10.) Sampling techniques<a class="anchor" id="10"></a>
 
+![01 02 2022_22 17 03_REC](https://user-images.githubusercontent.com/99672298/192697419-4110e878-561b-4f07-8516-6089bd3cb5c1.png)
+![29 01 2022_19 42 19_REC](https://user-images.githubusercontent.com/99672298/192697496-52a4e062-bf28-4101-9763-31e143723105.png)
 ![maxresdefault](https://user-images.githubusercontent.com/99672298/190982038-48814cf2-36b0-4c0c-ba3d-5e482215b5ab.jpg)
 ![sampling-frame-l](https://user-images.githubusercontent.com/99672298/190982014-bf195c6b-bf2e-4e80-8984-ab791c30488c.jpg)
 
@@ -963,12 +968,15 @@ ____
 ### 16.) Covariance<a class="anchor" id="16"></a>
 
 ![07 05 2022_13 13 53_REC](https://user-images.githubusercontent.com/99672298/190981837-3684c83b-3a03-494a-b1e2-c4cec3dbd611.png)
+![18 09 2022_19 58 07_REC](https://user-images.githubusercontent.com/99672298/192697712-b2a6684a-673e-4772-82cd-85a2d97c05f7.png)
 ![04 05 2022_20 05 57_REC](https://user-images.githubusercontent.com/99672298/190981878-f7ef77f3-6ea8-49b1-97c9-909c5baf0ada.png)
 ![Covariance-Formula](https://user-images.githubusercontent.com/99672298/190981973-c91ce53d-c933-48e7-bab1-8ef22905c33f.jpg)
 
 [Table of Content](#0.1)
 ___
 ### 17.) Correlation<a class="anchor" id="17"></a>
+
+![18 09 2022_20 33 18_REC](https://user-images.githubusercontent.com/99672298/192697640-3c0eef2a-f2a2-4c17-8a44-4c4a9edf4d67.png)
 
 Correlation coefficients take the values between minus one and plus one.  The positive correlation signifies that the ranks of both the variables are increasing.  On the other hand, the negative correlation signifies that as the rank of one variable is increased, the rank of the other variable is decreased.
 
@@ -1112,7 +1120,7 @@ It is a measure of the linear relationship between two continuous random variabl
 ![31 03 2022_12 27 48_REC](https://user-images.githubusercontent.com/99672298/190981901-f8fd0acf-458d-47d1-ba48-ebcaef9abf37.png)
 
 [Table of Content](#0.1)
-## 18.) Permutation and Combination: 
+## 18.) Permutation and Combination:<a class="anchor" id="18"></a>
 
 Permutation and combination form the principles of counting and they are applied in various situations. A permutation is a count of the different arrangements which can be made from the given set of things. In permutation the details matter, as the order or sequence is important. Writing the names of three countries {USA, Brazil, Australia} or {Australia, USA, Brazil) or { Brazil, Australia, USA} is different and this sequence in which the names of the countries are written is important. In combinations, the name of three countries is just a single group, and the sequence or order does not matter. Let us learn more about permutation and combination in the below content.
 
