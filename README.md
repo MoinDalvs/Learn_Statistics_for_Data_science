@@ -991,9 +991,13 @@ Correlation analyses can be used to test for associations in hypothesis testing.
 
 A Pearson correlation is used when assessing the relationship between two continuous variables. The non-parametric equivalent to the Pearson correlation is the Spearman correlation (ρ), and is appropriate when at least one of the variables is measured on an ordinal scale.
 
-Inferential statistical procedures generally fall into two possible categorizations: parametric and non-parametric. Depending on the level of the data you plan to examine (e.g., nominal, ordinal, continuous), a particular statistical approach should be followed. Parametric tests rely on the assumption that the data you are testing resembles a particular distribution (often a normal or “bell-shaped” distribution). Non-parametric tests are frequently referred to as distribution-free tests because there are not strict assumptions to check in regards to the distribution of the data.
+#### Inferential statistical procedures generally fall into two possible categorizations: parametric and non-parametric. Depending on the level of the data you plan to examine (e.g., nominal, ordinal, continuous), a particular statistical approach should be followed. 
 
-As a general rule of thumb, when the dependent variable’s level of measurement is nominal (categorical) or ordinal, then a non-parametric test should be selected. When the dependent variable is measured on a continuous scale, then a parametric test should typically be selected.  Fortunately, the most frequently used parametric analyses have non-parametric counterparts.  This can be useful when the assumptions of a parametric test are violated because you can choose the non-parametric alternative as a backup analysis.
+##### Parametric tests rely on the assumption that the data you are testing resembles a particular distribution (often a normal or “bell-shaped” distribution). 
+
+##### Non-parametric tests are frequently referred to as distribution-free tests because there are not strict assumptions to check in regards to the distribution of the data.
+
+As a general rule of thumb, when the dependent variable’s level of measurement is nominal (categorical) or ordinal, then a non-parametric test should be selected. When the dependent variable is measured on a continuous scale, then a parametric test should typically be selected.  Fortunately, the most frequently used parametric analyses have non-parametric counterparts. This can be useful when the assumptions of a parametric test are violated because you can choose the non-parametric alternative as a backup analysis.
 
 Kendall's rank correlation provides a distribution free test of independence and a measure of the strength of dependence between two variables.
 
