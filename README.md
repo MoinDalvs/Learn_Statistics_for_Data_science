@@ -52,8 +52,10 @@
 	- 10.5 [Non-Random Sampling Methods](#10.5)
 	- 10.6 [Random Sampling Methods](#10.6)
 11. [Sampling Error](#11)
-12. [Normal Distribution](#12)
-	- 12.1 [Properties of Normal Distribution](#12.1)
+12. [Distribution](#12)
+	- 12.1 [Normal Distribution](#12.1)
+	- 12.2 [Properties of Normal Distribution](#12.2)
+	- 12.3 [Binomial Distribution](#12.3)
 13. [Outliers](#13)
 	- 13.1 [What are Outliers? 🤔](#13.1)
 	- 13.2 [Why do they occur?](#13.2)
@@ -828,16 +830,66 @@ ____
 
 [Table of Content](#0.1)
 ____
-## 12.) Normal distribution<a class="anchor" id="12"></a>
+## 12.) Distribution<a class="anchor" id="12"></a>
 
+### 12.1) Normal Distribution<a class="anchor" id="12.1"></a>
 ![16 09 2022_16 31 55_REC](https://user-images.githubusercontent.com/99672298/190981214-f7ef6fda-825d-43e1-9e8c-70c5d2f5fa0f.png)
 ![16 09 2022_18 56 19_REC](https://user-images.githubusercontent.com/99672298/190981163-f92e9d08-9ab8-463e-bd62-7a34558b3530.png)
 ![16 09 2022_18 55 14_REC](https://user-images.githubusercontent.com/99672298/190981186-296b8ac1-1fb8-4d19-8d75-fe04120328ae.png)
 ![common-distribution_huec055ab3bd48482f92384431f8f73d3e_75898_900x500_fit_box_2](https://user-images.githubusercontent.com/99672298/190981750-bf877d2f-816a-49bc-bc43-371d54b9ec40.png)
 ____
-### 12.1) Properties of Normal Distribution<a class="anchor" id="12.1"></a>
+### 12.2) Properties of Normal Distribution<a class="anchor" id="12.2"></a>
 
 ![16 09 2022_19 52 31_REC](https://user-images.githubusercontent.com/99672298/190980913-dc1a9cf4-9469-4ae7-83fe-15f0f366f263.png)
+
+### 12.3) Binomial Distribution<a class="anchor" id="12.3"></a>
+
+#### What is Binomial Distribution?
+A Binomial Distribution describes the probability of an event that only has 2 possible outcomes. For Example, Heads or tails.
+
+It can also be used to describe the probability of a series of independent events that only have 2 possible outcomes occurring. For Example. Flipping a coin 10 times and having it land with 5 on heads exactly 5 times. Or, flipping a coin 10 times and having at least 5 land on heads.
+
+Furthermore, the probability of an event with n trials and f failures follows a binomial distribution.
+
+#### Visualizing Binomial Distribution
+The Binomial Distribution looks like so when graphed:
+
+![image](https://user-images.githubusercontent.com/99672298/200475879-46687281-8210-4c5d-a4ca-7c53604be6cb.png)
+
+#### When Would You Use Binomial Distribution?
+**Requirements and Conditions for a Binomial Distribution**
++ Must be a fixed number of trials.
++ Continuous data are not binomial.
++ Probability of success should be the same on every trial, and also probability of success is constant.
++ Two state. Two possible outcomes.
+	+ (true or false, hot or cold, success or failure, defective or not defective.)
++ Independent trials – trials are statistically independent.
+	+ (For example: The flip of one coin means nothing to the results of the next coin flip.)
++ Use Binomial Distribution when you are sampling with replacement.
+
+**You Cannot Use Binomial Distribution On:**
+
++ When the probability of success is not constant for an event.
+	+ Ex. The probability of it snowing or not snowing in NYC would not fit the criteria for a Binomial Distribution because the probability of success is not 	     constant. The chance of snow on winter days is higher than summer days.
++ When you sample WITHOUT replacement.
+	+ In that case, use Hypergeometric.
+
+#### Examples of Binomial Distribution Problems
+##### Non Cumulative Binomial Probability
+##### Non-Cumulative Calculation Example 1: “Contains Exactly”
+If a coin is tossed 10 times, what is the probability of obtaining exactly four heads? (If an honest coin is tossed 10 times, what is the probability of 4 heads?)
+
+With a coin toss there are only 2 possible outcomes; heads or tails. So you should be on alert for using binomial.
+
+![image](https://user-images.githubusercontent.com/99672298/200476375-aae51d38-247b-48da-b54a-33dc34c13dd0.png)
+
+##### Non-Cumulative Calculation Example 2: “Contains Exactly”
+A manufacturing process creates 3.4% defective parts. A sample of 10 parts from the production process is selected. What is the probability that the sample contains exactly 3 defective parts?
+
+As soon as you see the word defective, you should be alert to using the Binomial equation. Since defect in this sense means that a part is in a binary state, either functioning or defective, it meets our criteria.
+
+![image](https://user-images.githubusercontent.com/99672298/200477556-2914ed09-487f-44ca-907c-39a39e266a3c.png)
+
 
 [Table of Content](#0.1)
 ____
