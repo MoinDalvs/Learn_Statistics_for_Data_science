@@ -890,6 +890,24 @@ As soon as you see the word defective, you should be alert to using the Binomial
 
 ![image](https://user-images.githubusercontent.com/99672298/200477556-2914ed09-487f-44ca-907c-39a39e266a3c.png)
 
+##### Non-Cumulative Chart Example: 
+You can see that the same percentage was found on the chart. (In this case, x is the probability of the event happening instead of p.)
+
+Examples of Cumulative Binomial Probability Questions
+Cumulative Calculation Example: “At least” or “Fewer Than” or “At Most”
+79% percent of the students of a large class passed the final exam. A random sample of 4 students are selected to be analyzed by the school. What is the probability that the sample contains fewer than 2 students that passed the exam?
+
+Since we are examining data that only has a binary state, pass or fail, you should be on alert to using the binomial equation.
+
+Also, since you’re asked for ‘x or fewer’, you have to calculate the probability of ALL POSSIBLE events.
+
+In this example we must calculate the odds of EXACTLY one pass PLUS the odds of EXACTLY no pass in the sample.
+
+![image](https://user-images.githubusercontent.com/99672298/200481750-3cbe4ed2-9be7-478e-82c0-13363c23c13c.png)
+
+![image](https://user-images.githubusercontent.com/99672298/200481964-d1644626-099a-4cc0-a4ca-8365677508ef.png)
+
+![image](https://user-images.githubusercontent.com/99672298/200482343-d3e8b0b9-c950-46a1-814e-0a41b7cfbd8d.png)
 
 [Table of Content](#0.1)
 ____
