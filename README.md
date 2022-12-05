@@ -5,7 +5,7 @@
 ### `Read and catch up on content:`
 - [Gradient Descent article](https://github.com/MoinDalvs/Gradient_Descent_For_beginners/blob/main/README.md) :books:
 
-## Don't get lost in the Statistics below is the path Follow! and Conquer it!
+## Don't get lost in the Statistics. Below is the path Follow! and Conquer it!
 
 ## 0.1 Table of Contents<a class="anchor" id="0.1"></a>
 1. [Let's talk about Statistics and its types.](#1)
