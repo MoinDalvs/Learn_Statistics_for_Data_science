@@ -381,13 +381,33 @@ Negative/left-skewed: Data is said to be negatively skewed if most of the data i
 ### Negative or left-skewed means the tail is more pronounced on the left rather than the right. Most values are found on the right side of the mean in negative skewness. As such, the most extreme values are found further to the left.
 
 ![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/4dd4d3e5-8f2d-4b6a-b905-36d59896d9e3)
+
+## Central Tendency Measures in Positively Skewed Distributions
+
+### Unlike with normally distributed data where all measures of the central tendency (mean, median, and mode) equal each other, with positively skewed data, the measures are dispersed. The general relationship among the central tendency measures in a positively skewed distribution may be expressed using the following inequality:
+
+### Mean  >  Median  >  Mode
+### In contrast to a negatively skewed distribution, in which the mean is located on the left from the peak of distribution, in a positively skewed distribution, the mean can be found on the right from the distribution’s peak. However, not all negatively skewed distributions follow the rules. You may encounter many exceptions in real life that violate the rules.
+
+### Since a high level of skewness can generate misleading results from statistical tests, the extreme positive skewness is not desirable for a distribution. In order to overcome such a problem, data transformation tools may be employed to make the skewed data closer to a normal distribution.
+
+### For positively skewed distributions, the most popular transformation is the log transformation. The log transformation implies the calculations of the natural logarithm for each value in the dataset. The method reduces the skew of a distribution. Statistical tests are usually run only when the transformation of the data is complete.
+
+## Positively Skewed Distribution in Finance
+### In finance, the concept of skewness is utilized in the analysis of the distribution of the returns of investments. Although many finance theories and models assume that the returns from securities follow a normal distribution, in reality, the returns are usually skewed.
+
+### The positive skewness of a distribution indicates that an investor may expect frequent small losses and a few large gains from the investment. The positively skewed distributions of investment returns are generally more desired by investors since there is some probability of gaining huge profits that can cover all the frequent small losses.
+
 ![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/1a254c2f-9c2c-4d11-99ed-c7fc7ce933c1)
 
+## A QQ - Plot to demonstrate the skewness
+![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/614a4920-6ea2-4ebd-bb21-6147d2cf2641)
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
 ![26 02 2022_15 13 10_REC](https://user-images.githubusercontent.com/99672298/190962548-87f13d54-87b7-4edf-8c4e-d65a0e913657.png)
 ![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/c929b44f-2c69-4124-9914-4a600a189f14)
 
+### We refer to it as positively or rightly skewed because, as you can see, the long tail is positioned on the positive, or right, side of the center value. Notwithstanding the skewness, the skewness does aid in our comprehension of the data's concentration on one side and the extent to which outliers deviate from the mean.
 
 [Table of Content](#0.1)
 ____
