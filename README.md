@@ -371,9 +371,23 @@ Negative/left-skewed: Data is said to be negatively skewed if most of the data i
 
 ![image](https://user-images.githubusercontent.com/99672298/190962416-8a01be82-e230-4e2e-be1c-da53288128eb.png)
 ![image](https://user-images.githubusercontent.com/99672298/190962452-0094c080-4269-430d-8c9c-5f2734979c22.png)
+![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/8a3b2461-ac3c-497e-9ef5-d43bace4a1c8)
+
+## What is a Positively Skewed Distribution?
+### In statistics, a positively skewed (or right-skewed) distribution is a type of distribution in which most values are clustered around the left tail of the distribution while the right tail of the distribution is longer. The positively skewed distribution is the direct opposite of the negatively skewed distribution.
+
+### A right-skewed or positive distribution means its tail is more pronounced on the right side than on the left. Since the distribution is positive, the assumption is that its value is positive. As such, most of the values end up left of the mean. This means that the most extreme values are on the right side.
+
+### Negative or left-skewed means the tail is more pronounced on the left rather than the right. Most values are found on the right side of the mean in negative skewness. As such, the most extreme values are found further to the left.
+
+![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/4dd4d3e5-8f2d-4b6a-b905-36d59896d9e3)
+![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/1a254c2f-9c2c-4d11-99ed-c7fc7ce933c1)
+
 ![sk1](https://user-images.githubusercontent.com/99672298/190672365-7fcd7401-b263-4a2e-916b-352663be040c.png)
 ![FRBfMkKaIAAjrd2](https://user-images.githubusercontent.com/99672298/190672080-c7c560e4-5447-4743-970d-839ee85898a0.png)
 ![26 02 2022_15 13 10_REC](https://user-images.githubusercontent.com/99672298/190962548-87f13d54-87b7-4edf-8c4e-d65a0e913657.png)
+![image](https://github.com/MoinDalvs/Learn_Statistics_for_Data_science/assets/99672298/c929b44f-2c69-4124-9914-4a600a189f14)
+
 
 [Table of Content](#0.1)
 ____
